@@ -1,0 +1,598 @@
+{
+  "va": [],
+  "md": [
+    {
+      "first_name": "Ajmal",
+      "last_name": "Khurram",
+      "full_name": "Ajmal Khurram",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "MD"
+    },
+    {
+      "first_name": "Albab",
+      "last_name": "Azeze",
+      "full_name": "Albab Azeze",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "MD"
+    },
+    {
+      "first_name": "Anna",
+      "last_name": "Kurzer",
+      "full_name": "Anna Kurzer",
+      "current_salary": 69225.104,
+      "new_salary_raw": 71301.85712,
+      "new_salary_rounded": 71301.86,
+      "location": "MD"
+    },
+    {
+      "first_name": "Baryalai",
+      "last_name": "Rawan",
+      "full_name": "Baryalai Rawan",
+      "current_salary": 67999.984,
+      "new_salary_raw": 70039.98352,
+      "new_salary_rounded": 70039.98,
+      "location": "MD"
+    },
+    {
+      "first_name": "Bethelem",
+      "last_name": "Alemahyehu",
+      "full_name": "Bethelem Alemahyehu",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "MD"
+    },
+    {
+      "first_name": "Dagim",
+      "last_name": "Mekonnen",
+      "full_name": "Dagim Mekonnen",
+      "current_salary": 63553.776,
+      "new_salary_raw": 65460.38928,
+      "new_salary_rounded": 65460.39,
+      "location": "MD"
+    },
+    {
+      "first_name": "Egosia",
+      "last_name": "Ajeih",
+      "full_name": "Egosia Ajeih",
+      "current_salary": 53250.08,
+      "new_salary_raw": 54847.5824,
+      "new_salary_rounded": 54847.58,
+      "location": "MD"
+    },
+    {
+      "first_name": "Elizaabeth",
+      "last_name": "Buara Kamara",
+      "full_name": "Elizaabeth Buara Kamara",
+      "current_salary": 58574.88,
+      "new_salary_raw": 60332.1264,
+      "new_salary_rounded": 60332.13,
+      "location": "MD"
+    },
+    {
+      "first_name": "Evette",
+      "last_name": "Phillips",
+      "full_name": "Evette Phillips",
+      "current_salary": 36400.0,
+      "new_salary_raw": 37492.0,
+      "new_salary_rounded": 37492.0,
+      "location": "MD"
+    },
+    {
+      "first_name": "Farishta",
+      "last_name": "Khalil",
+      "full_name": "Farishta Khalil",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "MD"
+    },
+    {
+      "first_name": "Ibraham",
+      "last_name": "Diallo",
+      "full_name": "Ibraham Diallo",
+      "current_salary": 53250.08,
+      "new_salary_raw": 54847.5824,
+      "new_salary_rounded": 54847.58,
+      "location": "MD"
+    },
+    {
+      "first_name": "Iriana",
+      "last_name": "Lessen",
+      "full_name": "Iriana Lessen",
+      "current_salary": 65000.0,
+      "new_salary_raw": 66950.0,
+      "new_salary_rounded": 66950.0,
+      "location": "MD"
+    },
+    {
+      "first_name": "Jenna",
+      "last_name": "McGillcuddy",
+      "full_name": "Jenna McGillcuddy",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "MD"
+    },
+    {
+      "first_name": "Mariam",
+      "last_name": "Noorzad",
+      "full_name": "Mariam Noorzad",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "MD"
+    },
+    {
+      "first_name": "Miramjan",
+      "last_name": "Sadaqat",
+      "full_name": "Miramjan Sadaqat",
+      "current_salary": 56999.904,
+      "new_salary_raw": 58709.90112,
+      "new_salary_rounded": 58709.9,
+      "location": "MD"
+    },
+    {
+      "first_name": "Munsif",
+      "last_name": "Noor Ul Haq",
+      "full_name": "Munsif Noor Ul Haq",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "MD"
+    },
+    {
+      "first_name": "Nassrullah",
+      "last_name": "Mohibi",
+      "full_name": "Nassrullah Mohibi",
+      "current_salary": 53250.08,
+      "new_salary_raw": 54847.5824,
+      "new_salary_rounded": 54847.58,
+      "location": "MD"
+    },
+    {
+      "first_name": "Razia",
+      "last_name": "Mahrami",
+      "full_name": "Razia Mahrami",
+      "current_salary": 69225.104,
+      "new_salary_raw": 71301.85712,
+      "new_salary_rounded": 71301.86,
+      "location": "MD"
+    },
+    {
+      "first_name": "Ruby",
+      "last_name": "Diaz",
+      "full_name": "Ruby Diaz",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "MD"
+    },
+    {
+      "first_name": "Sana",
+      "last_name": "Amini",
+      "full_name": "Sana Amini",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "MD"
+    },
+    {
+      "first_name": "Tilahun",
+      "last_name": "Zewadi",
+      "full_name": "Tilahun Zewadi",
+      "current_salary": 60000.096,
+      "new_salary_raw": 61800.09888,
+      "new_salary_rounded": 61800.1,
+      "location": "MD"
+    },
+    {
+      "first_name": "Wade",
+      "last_name": "William",
+      "full_name": "Wade William",
+      "current_salary": 53250.08,
+      "new_salary_raw": 54847.5824,
+      "new_salary_rounded": 54847.58,
+      "location": "MD"
+    },
+    {
+      "first_name": "Megdad",
+      "last_name": "Mehmoodi",
+      "full_name": "Megdad Mehmoodi",
+      "current_salary": 57776.16,
+      "new_salary_raw": 59509.4448,
+      "new_salary_rounded": 59509.44,
+      "location": "MD"
+    }
+  ],
+  "admin": [
+    {
+      "first_name": "Abeer",
+      "last_name": "Omer",
+      "full_name": "Abeer Omer",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Aemal",
+      "last_name": "Sanjeeda",
+      "full_name": "Aemal Sanjeeda",
+      "current_salary": 54999.984,
+      "new_salary_raw": 56649.98352,
+      "new_salary_rounded": 56649.98,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Ahmed",
+      "last_name": "Seyar Auobi",
+      "full_name": "Ahmed Seyar Auobi",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Ajmal",
+      "last_name": "Amiri",
+      "full_name": "Ajmal Amiri",
+      "current_salary": 53250.08,
+      "new_salary_raw": 54847.5824,
+      "new_salary_rounded": 54847.58,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Akilu",
+      "last_name": "Debalkew",
+      "full_name": "Akilu Debalkew",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Atakhleti",
+      "last_name": "Alemseged",
+      "full_name": "Atakhleti Alemseged",
+      "current_salary": 68029.312,
+      "new_salary_raw": 70070.19136,
+      "new_salary_rounded": 70070.19,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Barbara",
+      "last_name": "Callen",
+      "full_name": "Barbara Callen",
+      "current_salary": 65000.0,
+      "new_salary_raw": 66950.0,
+      "new_salary_rounded": 66950.0,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Bob",
+      "last_name": "Elston",
+      "full_name": "Bob Elston",
+      "current_salary": 65000.0,
+      "new_salary_raw": 66950.0,
+      "new_salary_rounded": 66950.0,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Brishna",
+      "last_name": "Katawazai",
+      "full_name": "Brishna Katawazai",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Earnest",
+      "last_name": "Overton",
+      "full_name": "Earnest Overton",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Eftihia",
+      "last_name": "Ionnidou",
+      "full_name": "Eftihia Ionnidou",
+      "current_salary": 67094.768,
+      "new_salary_raw": 69107.61104,
+      "new_salary_rounded": 69107.61,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Emebet",
+      "last_name": "Ashagre",
+      "full_name": "Emebet Ashagre",
+      "current_salary": 70000.112,
+      "new_salary_raw": 72100.11536,
+      "new_salary_rounded": 72100.12,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Esra",
+      "last_name": "Bayrakthar",
+      "full_name": "Esra Bayrakthar",
+      "current_salary": 85193.264,
+      "new_salary_raw": 87749.06192,
+      "new_salary_rounded": 87749.06,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Faye",
+      "last_name": "Biggs",
+      "full_name": "Faye Biggs",
+      "current_salary": 62776.272,
+      "new_salary_raw": 64659.56016,
+      "new_salary_rounded": 64659.56,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Ferdawok",
+      "last_name": "Woyesa",
+      "full_name": "Ferdawok Woyesa",
+      "current_salary": 59107.568,
+      "new_salary_raw": 60880.79504,
+      "new_salary_rounded": 60880.8,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Firdus",
+      "last_name": "Yusuf",
+      "full_name": "Firdus Yusuf",
+      "current_salary": 34944.0,
+      "new_salary_raw": 35992.32,
+      "new_salary_rounded": 35992.32,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Florance",
+      "last_name": "Ahmadi",
+      "full_name": "Florance Ahmadi",
+      "current_salary": 57776.368,
+      "new_salary_raw": 59509.65904,
+      "new_salary_rounded": 59509.66,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Freshta",
+      "last_name": "Atmar",
+      "full_name": "Freshta Atmar",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Hamdard",
+      "last_name": "Hashmatullah",
+      "full_name": "Hamdard Hashmatullah",
+      "current_salary": 65000.0,
+      "new_salary_raw": 66950.0,
+      "new_salary_rounded": 66950.0,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Helen",
+      "last_name": "Gebru",
+      "full_name": "Helen Gebru",
+      "current_salary": 74999.9952,
+      "new_salary_raw": 77249.99506,
+      "new_salary_rounded": 77250.0,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Iryna",
+      "last_name": "Gaiduk",
+      "full_name": "Iryna Gaiduk",
+      "current_salary": 63553.776,
+      "new_salary_raw": 65460.38928,
+      "new_salary_rounded": 65460.39,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Jamal",
+      "last_name": "Noori",
+      "full_name": "Jamal Noori",
+      "current_salary": 58574.88,
+      "new_salary_raw": 60332.1264,
+      "new_salary_rounded": 60332.13,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Jean",
+      "last_name": "Cyprien",
+      "full_name": "Jean Cyprien",
+      "current_salary": 57776.16,
+      "new_salary_raw": 59509.4448,
+      "new_salary_rounded": 59509.44,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Jehanzeb",
+      "last_name": "Louis",
+      "full_name": "Jehanzeb Louis",
+      "current_salary": 79999.92,
+      "new_salary_raw": 82399.9176,
+      "new_salary_rounded": 82399.92,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Kamela",
+      "last_name": "Azizi",
+      "full_name": "Kamela Azizi",
+      "current_salary": 58574.88,
+      "new_salary_raw": 60332.1264,
+      "new_salary_rounded": 60332.13,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Konjit",
+      "last_name": "Edward",
+      "full_name": "Konjit Edward",
+      "current_salary": 65018.304,
+      "new_salary_raw": 66968.85312,
+      "new_salary_rounded": 66968.85,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Laryssa",
+      "last_name": "Romenko",
+      "full_name": "Laryssa Romenko",
+      "current_salary": 57776.368,
+      "new_salary_raw": 59509.65904,
+      "new_salary_rounded": 59509.66,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Manizha",
+      "last_name": "Nuzhat",
+      "full_name": "Manizha Nuzhat",
+      "current_salary": 67999.984,
+      "new_salary_raw": 70039.98352,
+      "new_salary_rounded": 70039.98,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Mariela",
+      "last_name": "Peneranda",
+      "full_name": "Mariela Peneranda",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Mohammad",
+      "last_name": "Akbar Akbar",
+      "full_name": "Mohammad Akbar Akbar",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Mohammad",
+      "last_name": "Baig",
+      "full_name": "Mohammad Baig",
+      "current_salary": 65000.0,
+      "new_salary_raw": 66950.0,
+      "new_salary_rounded": 66950.0,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Morgan",
+      "last_name": "Swindall",
+      "full_name": "Morgan Swindall",
+      "current_salary": 54999.984,
+      "new_salary_raw": 56649.98352,
+      "new_salary_rounded": 56649.98,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Najia",
+      "last_name": "Hashimzada",
+      "full_name": "Najia Hashimzada",
+      "current_salary": 63900.096,
+      "new_salary_raw": 65817.09888,
+      "new_salary_rounded": 65817.1,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Parwana",
+      "last_name": "Noori",
+      "full_name": "Parwana Noori",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Ramaswami",
+      "last_name": "Swaminathan Abirami",
+      "full_name": "Ramaswami Swaminathan Abirami",
+      "current_salary": 53250.08,
+      "new_salary_raw": 54847.5824,
+      "new_salary_rounded": 54847.58,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Sarah",
+      "last_name": "Zullo",
+      "full_name": "Sarah Zullo",
+      "current_salary": 104360.256,
+      "new_salary_raw": 107491.0637,
+      "new_salary_rounded": 107491.06,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Shakil",
+      "last_name": "Tabassum",
+      "full_name": "Shakil Tabassum",
+      "current_salary": 95908.592,
+      "new_salary_raw": 98785.84976,
+      "new_salary_rounded": 98785.85,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Tahera",
+      "last_name": "Azizi",
+      "full_name": "Tahera Azizi",
+      "current_salary": 58249.984,
+      "new_salary_raw": 59997.48352,
+      "new_salary_rounded": 59997.48,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Taylor",
+      "last_name": "Woody",
+      "full_name": "Taylor Woody",
+      "current_salary": 50000.08,
+      "new_salary_raw": 52500.084,
+      "new_salary_rounded": 52500.08,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Viktoria",
+      "last_name": "Sutanovska",
+      "full_name": "Viktoria Sutanovska",
+      "current_salary": 69225.104,
+      "new_salary_raw": 71301.85712,
+      "new_salary_rounded": 71301.86,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Yama",
+      "last_name": "Ahmadi",
+      "full_name": "Yama Ahmadi",
+      "current_salary": 63553.776,
+      "new_salary_raw": 65460.38928,
+      "new_salary_rounded": 65460.39,
+      "location": "Admin"
+    },
+    {
+      "first_name": "Ziai",
+      "last_name": "Shafiullah",
+      "full_name": "Ziai Shafiullah",
+      "current_salary": 65000.0,
+      "new_salary_raw": 66950.0,
+      "new_salary_rounded": 66950.0,
+      "location": "Admin"
+    }
+  ],
+  "totals": {
+    "va": 0,
+    "md": 1314788.7,
+    "admin": 2673471.48,
+    "grand_total": 3988260.1799999997
+  }
+}

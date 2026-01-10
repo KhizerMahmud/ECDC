@@ -1,0 +1,1508 @@
+[
+  {
+    "employee_id": 2,
+    "employee_name": "Aemal Sanjeeda",
+    "contract_number": "5208-30",
+    "allocated_amount": 13125.0
+  },
+  {
+    "employee_id": 2,
+    "employee_name": "Aemal Sanjeeda",
+    "contract_number": "5240-30",
+    "allocated_amount": 39375.0
+  },
+  {
+    "employee_id": 3,
+    "employee_name": "Ahmed Seyar Auobi",
+    "contract_number": "5211-30",
+    "allocated_amount": 7268.56
+  },
+  {
+    "employee_id": 3,
+    "employee_name": "Ahmed Seyar Auobi",
+    "contract_number": "5209-30",
+    "allocated_amount": 11182.4
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ajmal Khurram",
+    "contract_number": "5208-30",
+    "allocated_amount": 5250.0
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ajmal Khurram",
+    "contract_number": "5147-30",
+    "allocated_amount": 1050.0
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ajmal Khurram",
+    "contract_number": "5176-30",
+    "allocated_amount": 2100.0
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ajmal Khurram",
+    "contract_number": "5129-30",
+    "allocated_amount": 4200.0
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ajmal Khurram",
+    "contract_number": "5211-30",
+    "allocated_amount": 1575.0
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ajmal Khurram",
+    "contract_number": "5227-30",
+    "allocated_amount": 2625.0
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ajmal Khurram",
+    "contract_number": "5240-30",
+    "allocated_amount": 7875.0
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ajmal Khurram",
+    "contract_number": "5222-30",
+    "allocated_amount": 24000.0
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ajmal Khurram",
+    "contract_number": "5245-30",
+    "allocated_amount": 6000.0
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ajmal Khurram",
+    "contract_number": "5213-30",
+    "allocated_amount": 7307.7
+  },
+  {
+    "employee_id": 7,
+    "employee_name": "Albab Azeze",
+    "contract_number": "5222-33",
+    "allocated_amount": 9501.69
+  },
+  {
+    "employee_id": 8,
+    "employee_name": "Anna Kurzer",
+    "contract_number": "5176-30",
+    "allocated_amount": 3503.5
+  },
+  {
+    "employee_id": 8,
+    "employee_name": "Anna Kurzer",
+    "contract_number": "5147-33",
+    "allocated_amount": 6306.3
+  },
+  {
+    "employee_id": 8,
+    "employee_name": "Anna Kurzer",
+    "contract_number": "5213-30",
+    "allocated_amount": 5219.53
+  },
+  {
+    "employee_id": 8,
+    "employee_name": "Anna Kurzer",
+    "contract_number": "4007-30",
+    "allocated_amount": 13475.04
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Atakhleti Alemseged",
+    "contract_number": "5208-30",
+    "allocated_amount": 2730.0
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Atakhleti Alemseged",
+    "contract_number": "5147-30",
+    "allocated_amount": 1365.0
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Atakhleti Alemseged",
+    "contract_number": "5129-30",
+    "allocated_amount": 3412.5
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Atakhleti Alemseged",
+    "contract_number": "5211-30",
+    "allocated_amount": 2047.5
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Atakhleti Alemseged",
+    "contract_number": "5209-30",
+    "allocated_amount": 3412.5
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Atakhleti Alemseged",
+    "contract_number": "5227-30",
+    "allocated_amount": 4095.0
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Atakhleti Alemseged",
+    "contract_number": "5240-30",
+    "allocated_amount": 2730.0
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Atakhleti Alemseged",
+    "contract_number": "5208-33",
+    "allocated_amount": 2730.0
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Atakhleti Alemseged",
+    "contract_number": "5124-33",
+    "allocated_amount": 1365.0
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Atakhleti Alemseged",
+    "contract_number": "5145-33",
+    "allocated_amount": 2047.5
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Atakhleti Alemseged",
+    "contract_number": "5166-33",
+    "allocated_amount": 1365.0
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Atakhleti Alemseged",
+    "contract_number": "5209-33",
+    "allocated_amount": 2047.5
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Atakhleti Alemseged",
+    "contract_number": "5240-33",
+    "allocated_amount": 2047.5
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Atakhleti Alemseged",
+    "contract_number": "5222-30",
+    "allocated_amount": 4550.0
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Atakhleti Alemseged",
+    "contract_number": "5213-30",
+    "allocated_amount": 2031.25
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Atakhleti Alemseged",
+    "contract_number": "2060-30",
+    "allocated_amount": 1950.0
+  },
+  {
+    "employee_id": 10,
+    "employee_name": "Barbara Callen",
+    "contract_number": "5208-33",
+    "allocated_amount": 5712.0
+  },
+  {
+    "employee_id": 10,
+    "employee_name": "Barbara Callen",
+    "contract_number": "5240-33",
+    "allocated_amount": 7140.0
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Bethelem Alemahyehu",
+    "contract_number": "5208-30",
+    "allocated_amount": 3412.5
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Bethelem Alemahyehu",
+    "contract_number": "5147-30",
+    "allocated_amount": 1365.0
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Bethelem Alemahyehu",
+    "contract_number": "5129-30",
+    "allocated_amount": 4095.0
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Bethelem Alemahyehu",
+    "contract_number": "5211-30",
+    "allocated_amount": 2047.5
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Bethelem Alemahyehu",
+    "contract_number": "5209-30",
+    "allocated_amount": 3412.5
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Bethelem Alemahyehu",
+    "contract_number": "5240-30",
+    "allocated_amount": 2047.5
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Bethelem Alemahyehu",
+    "contract_number": "5208-33",
+    "allocated_amount": 2730.0
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Bethelem Alemahyehu",
+    "contract_number": "5124-33",
+    "allocated_amount": 1365.0
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Bethelem Alemahyehu",
+    "contract_number": "5145-33",
+    "allocated_amount": 2047.5
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Bethelem Alemahyehu",
+    "contract_number": "5166-33",
+    "allocated_amount": 1365.0
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Bethelem Alemahyehu",
+    "contract_number": "5209-33",
+    "allocated_amount": 2047.5
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Bethelem Alemahyehu",
+    "contract_number": "5222-33",
+    "allocated_amount": 2625.0
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Bethelem Alemahyehu",
+    "contract_number": "5213-30",
+    "allocated_amount": 937.5
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Dagim McKonnen",
+    "contract_number": "5208-33",
+    "allocated_amount": 2907.44
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Dagim McKonnen",
+    "contract_number": "5124-33",
+    "allocated_amount": 1453.72
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Dagim McKonnen",
+    "contract_number": "5145-33",
+    "allocated_amount": 5814.88
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Dagim McKonnen",
+    "contract_number": "5166-33",
+    "allocated_amount": 5814.88
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Dagim McKonnen",
+    "contract_number": "5209-33",
+    "allocated_amount": 7268.6
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Dagim McKonnen",
+    "contract_number": "5227-33",
+    "allocated_amount": 3634.3
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Dagim McKonnen",
+    "contract_number": "5245-33",
+    "allocated_amount": 2191.0
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5208-30",
+    "allocated_amount": 2940.0
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5147-30",
+    "allocated_amount": 1470.0
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5129-30",
+    "allocated_amount": 4410.0
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5211-30",
+    "allocated_amount": 2205.0
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5209-30",
+    "allocated_amount": 3675.0
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5240-30",
+    "allocated_amount": 2205.0036
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5208-33",
+    "allocated_amount": 2940.0
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5124-33",
+    "allocated_amount": 1470.0
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5145-33",
+    "allocated_amount": 2205.0
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5166-33",
+    "allocated_amount": 1470.0
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5211-33",
+    "allocated_amount": 1470.0
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5209-33",
+    "allocated_amount": 2205.0
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5227-33",
+    "allocated_amount": 2205.0
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5222-30",
+    "allocated_amount": 3300.0
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5245-30",
+    "allocated_amount": 1800.0
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5245-33",
+    "allocated_amount": 1470.0
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "5213-30",
+    "allocated_amount": 1682.7
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Elizaabeth Buara Kamara",
+    "contract_number": "2060-30",
+    "allocated_amount": 2100.0
+  },
+  {
+    "employee_id": 20,
+    "employee_name": "Emebet Ashagre",
+    "contract_number": "5124-33",
+    "allocated_amount": 8050.68
+  },
+  {
+    "employee_id": 21,
+    "employee_name": "Esra Bayrakthar",
+    "contract_number": "5240-33",
+    "allocated_amount": 11466.0
+  },
+  {
+    "employee_id": 23,
+    "employee_name": "Faye Biggs",
+    "contract_number": "2126-30",
+    "allocated_amount": 23834.2
+  },
+  {
+    "employee_id": 23,
+    "employee_name": "Faye Biggs",
+    "contract_number": "2060-30",
+    "allocated_amount": 44664.65
+  },
+  {
+    "employee_id": 24,
+    "employee_name": "Ferdawok Woyesa",
+    "contract_number": "2103-30",
+    "allocated_amount": 18431.78
+  },
+  {
+    "employee_id": 26,
+    "employee_name": "Florance Ahmadi",
+    "contract_number": "5222-30",
+    "allocated_amount": 30036.89
+  },
+  {
+    "employee_id": 26,
+    "employee_name": "Florance Ahmadi",
+    "contract_number": "5213-30",
+    "allocated_amount": 3000.0
+  },
+  {
+    "employee_id": 30,
+    "employee_name": "TBH - Gelila Woodimagen",
+    "contract_number": "5147-30",
+    "allocated_amount": 6825.0
+  },
+  {
+    "employee_id": 30,
+    "employee_name": "TBH - Gelila Woodimagen",
+    "contract_number": "5222-30",
+    "allocated_amount": 7386.25
+  },
+  {
+    "employee_id": 30,
+    "employee_name": "TBH - Gelila Woodimagen",
+    "contract_number": "5245-30",
+    "allocated_amount": 15697.5
+  },
+  {
+    "employee_id": 30,
+    "employee_name": "TBH - Gelila Woodimagen",
+    "contract_number": "5213-30",
+    "allocated_amount": 33250.0
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5208-30",
+    "allocated_amount": 3150.0
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5147-30",
+    "allocated_amount": 1575.0
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5129-30",
+    "allocated_amount": 4725.0
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5211-30",
+    "allocated_amount": 2362.5
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5209-30",
+    "allocated_amount": 3937.5
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5240-30",
+    "allocated_amount": 3150.0
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5208-33",
+    "allocated_amount": 3150.0
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5124-33",
+    "allocated_amount": 1575.0
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5145-33",
+    "allocated_amount": 2362.5
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5166-33",
+    "allocated_amount": 1575.0
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5211-33",
+    "allocated_amount": 1575.0
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5209-33",
+    "allocated_amount": 2362.5
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5227-33",
+    "allocated_amount": 2362.5
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5240-33",
+    "allocated_amount": 2362.5
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5222-30",
+    "allocated_amount": 5250.0
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5245-30",
+    "allocated_amount": 1575.0
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5245-33",
+    "allocated_amount": 1575.0
+  },
+  {
+    "employee_id": 31,
+    "employee_name": "Hamdard Hashmatullah",
+    "contract_number": "5213-30",
+    "allocated_amount": 4326.91
+  },
+  {
+    "employee_id": 34,
+    "employee_name": "Ibraham Diallo",
+    "contract_number": "5124-33",
+    "allocated_amount": 7875.0
+  },
+  {
+    "employee_id": 34,
+    "employee_name": "Ibraham Diallo",
+    "contract_number": "5145-33",
+    "allocated_amount": 8400.0
+  },
+  {
+    "employee_id": 34,
+    "employee_name": "Ibraham Diallo",
+    "contract_number": "5175-33",
+    "allocated_amount": 2625.0
+  },
+  {
+    "employee_id": 34,
+    "employee_name": "Ibraham Diallo",
+    "contract_number": "5211-33",
+    "allocated_amount": 5250.0
+  },
+  {
+    "employee_id": 34,
+    "employee_name": "Ibraham Diallo",
+    "contract_number": "5209-33",
+    "allocated_amount": 5250.0
+  },
+  {
+    "employee_id": 35,
+    "employee_name": "Iriana Lessen",
+    "contract_number": "5129-30",
+    "allocated_amount": 6673.1
+  },
+  {
+    "employee_id": 35,
+    "employee_name": "Iriana Lessen",
+    "contract_number": "5211-30",
+    "allocated_amount": 5338.48
+  },
+  {
+    "employee_id": 35,
+    "employee_name": "Iriana Lessen",
+    "contract_number": "5209-30",
+    "allocated_amount": 5338.48
+  },
+  {
+    "employee_id": 37,
+    "employee_name": "Isabelle Veron",
+    "contract_number": "5222-30",
+    "allocated_amount": 25797.73
+  },
+  {
+    "employee_id": 37,
+    "employee_name": "Isabelle Veron",
+    "contract_number": "5213-30",
+    "allocated_amount": 4500.0
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Jean Cyprien",
+    "contract_number": "5208-30",
+    "allocated_amount": 4200.0
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Jean Cyprien",
+    "contract_number": "5129-30",
+    "allocated_amount": 8400.0
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Jean Cyprien",
+    "contract_number": "5211-30",
+    "allocated_amount": 1680.0
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Jean Cyprien",
+    "contract_number": "5209-30",
+    "allocated_amount": 4200.0
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Jean Cyprien",
+    "contract_number": "5245-30",
+    "allocated_amount": 1950.0
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Jean Cyprien",
+    "contract_number": "5213-30",
+    "allocated_amount": 1923.07
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Jean Cyprien",
+    "contract_number": "2025-30",
+    "allocated_amount": 461.54
+  },
+  {
+    "employee_id": 40,
+    "employee_name": "Jehanzeb Louis",
+    "contract_number": "5208-33",
+    "allocated_amount": 7350.0
+  },
+  {
+    "employee_id": 40,
+    "employee_name": "Jehanzeb Louis",
+    "contract_number": "5176-33",
+    "allocated_amount": 14700.0
+  },
+  {
+    "employee_id": 40,
+    "employee_name": "Jehanzeb Louis",
+    "contract_number": "5240-33",
+    "allocated_amount": 30450.0
+  },
+  {
+    "employee_id": 40,
+    "employee_name": "Jehanzeb Louis",
+    "contract_number": "5245-33",
+    "allocated_amount": 42000.0
+  },
+  {
+    "employee_id": 41,
+    "employee_name": "Jenna McGillcuddy",
+    "contract_number": "5245-33",
+    "allocated_amount": 52500.0
+  },
+  {
+    "employee_id": 41,
+    "employee_name": "Jenna McGillcuddy",
+    "contract_number": "2130-33",
+    "allocated_amount": 3502.3
+  },
+  {
+    "employee_id": 42,
+    "employee_name": "Kamela Azizi",
+    "contract_number": "5147-30",
+    "allocated_amount": 13393.8
+  },
+  {
+    "employee_id": 42,
+    "employee_name": "Kamela Azizi",
+    "contract_number": "5213-30",
+    "allocated_amount": 11970.0
+  },
+  {
+    "employee_id": 42,
+    "employee_name": "Kamela Azizi",
+    "contract_number": "3002-30",
+    "allocated_amount": 24132.72
+  },
+  {
+    "employee_id": 42,
+    "employee_name": "Kamela Azizi",
+    "contract_number": "4007-30",
+    "allocated_amount": 4626.299999999999
+  },
+  {
+    "employee_id": 43,
+    "employee_name": "Konjit Edward",
+    "contract_number": "5129-30",
+    "allocated_amount": 6066.5
+  },
+  {
+    "employee_id": 43,
+    "employee_name": "Konjit Edward",
+    "contract_number": "5211-30",
+    "allocated_amount": 4853.2
+  },
+  {
+    "employee_id": 43,
+    "employee_name": "Konjit Edward",
+    "contract_number": "5209-30",
+    "allocated_amount": 6066.5
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5208-30",
+    "allocated_amount": 3570.0
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5147-30",
+    "allocated_amount": 1428.0
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5129-30",
+    "allocated_amount": 4284.0
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5211-30",
+    "allocated_amount": 2142.0
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5209-30",
+    "allocated_amount": 3570.0
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5240-30",
+    "allocated_amount": 2142.0
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5208-33",
+    "allocated_amount": 2856.0
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5124-33",
+    "allocated_amount": 1428.0
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5145-33",
+    "allocated_amount": 2142.0
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5166-33",
+    "allocated_amount": 1428.0
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5211-33",
+    "allocated_amount": 1428.0
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5209-33",
+    "allocated_amount": 2142.0
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5227-33",
+    "allocated_amount": 2142.0
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5240-33",
+    "allocated_amount": 2142.0
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5245-30",
+    "allocated_amount": 2040.0
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5245-33",
+    "allocated_amount": 1428.0
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Laryssa Romenko",
+    "contract_number": "5213-30",
+    "allocated_amount": 2288.46
+  },
+  {
+    "employee_id": 47,
+    "employee_name": "Megdad Mehmoodi",
+    "contract_number": "5145-33",
+    "allocated_amount": 14962.5
+  },
+  {
+    "employee_id": 48,
+    "employee_name": "Miramjan Sadaqat",
+    "contract_number": "5213-30",
+    "allocated_amount": 23846.19
+  },
+  {
+    "employee_id": 49,
+    "employee_name": "Mohammad Akbar Akbar",
+    "contract_number": "5222-30",
+    "allocated_amount": 6329.57
+  },
+  {
+    "employee_id": 50,
+    "employee_name": "Mohammad Baig",
+    "contract_number": "5222-30",
+    "allocated_amount": 4980.78
+  },
+  {
+    "employee_id": 51,
+    "employee_name": "Morgan Swindall",
+    "contract_number": "5208-33",
+    "allocated_amount": 21000.0
+  },
+  {
+    "employee_id": 51,
+    "employee_name": "Morgan Swindall",
+    "contract_number": "5240-33",
+    "allocated_amount": 31500.0
+  },
+  {
+    "employee_id": 52,
+    "employee_name": "Munsif Noor Ul Haq",
+    "contract_number": "2103-30",
+    "allocated_amount": 921.63
+  },
+  {
+    "employee_id": 54,
+    "employee_name": "Nassrullah Mohibi",
+    "contract_number": "5222-30",
+    "allocated_amount": 3288.47
+  },
+  {
+    "employee_id": 57,
+    "employee_name": "TBH - Razia Mahrami",
+    "contract_number": "5222-33",
+    "allocated_amount": 45673.06
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5208-30",
+    "allocated_amount": 4383.12
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5147-30",
+    "allocated_amount": 2191.56
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5129-30",
+    "allocated_amount": 6574.68
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5211-30",
+    "allocated_amount": 3287.34
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5209-30",
+    "allocated_amount": 5478.9
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5240-30",
+    "allocated_amount": 3287.34
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5208-33",
+    "allocated_amount": 4383.12
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5124-33",
+    "allocated_amount": 2191.56
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5145-33",
+    "allocated_amount": 3287.34
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5166-33",
+    "allocated_amount": 2191.56
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5211-33",
+    "allocated_amount": 2191.56
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5209-33",
+    "allocated_amount": 3287.34
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5227-33",
+    "allocated_amount": 3287.35
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5240-33",
+    "allocated_amount": 3287.34
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5222-30",
+    "allocated_amount": 2805.22
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5245-30",
+    "allocated_amount": 2191.58
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5245-33",
+    "allocated_amount": 2191.58
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "5213-30",
+    "allocated_amount": 3913.51
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "TBH - Albab",
+    "contract_number": "2060-30",
+    "allocated_amount": 3130.81
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5208-30",
+    "allocated_amount": 4028.16
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5147-30",
+    "allocated_amount": 2014.08
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5129-30",
+    "allocated_amount": 6042.24
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5211-30",
+    "allocated_amount": 3021.12
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5209-30",
+    "allocated_amount": 5035.2
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5240-30",
+    "allocated_amount": 3021.12
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5208-33",
+    "allocated_amount": 4028.16
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5124-33",
+    "allocated_amount": 2014.08
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5166-33",
+    "allocated_amount": 2014.08
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5211-33",
+    "allocated_amount": 2014.08
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5209-33",
+    "allocated_amount": 3021.12
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5227-33",
+    "allocated_amount": 3021.12
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5240-33",
+    "allocated_amount": 3021.12
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5222-30",
+    "allocated_amount": 1879.9
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5245-30",
+    "allocated_amount": 2014.08
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5245-33",
+    "allocated_amount": 2014.08
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "5213-30",
+    "allocated_amount": 4334.34
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Sarah Zullo",
+    "contract_number": "2060-30",
+    "allocated_amount": 2877.26
+  },
+  {
+    "employee_id": 63,
+    "employee_name": "Slenka Luna Flores",
+    "contract_number": "5208-30",
+    "allocated_amount": 21406.87
+  },
+  {
+    "employee_id": 63,
+    "employee_name": "Slenka Luna Flores",
+    "contract_number": "5147-30",
+    "allocated_amount": 24464.99
+  },
+  {
+    "employee_id": 63,
+    "employee_name": "Slenka Luna Flores",
+    "contract_number": "5176-30",
+    "allocated_amount": 6116.25
+  },
+  {
+    "employee_id": 63,
+    "employee_name": "Slenka Luna Flores",
+    "contract_number": "5240-30",
+    "allocated_amount": 9174.37
+  },
+  {
+    "employee_id": 63,
+    "employee_name": "Slenka Luna Flores",
+    "contract_number": "5245-30",
+    "allocated_amount": 49512.48
+  },
+  {
+    "employee_id": 65,
+    "employee_name": "Taylor Woody",
+    "contract_number": "5124-33",
+    "allocated_amount": 18900.0
+  },
+  {
+    "employee_id": 65,
+    "employee_name": "Taylor Woody",
+    "contract_number": "5147-33",
+    "allocated_amount": 12600.0
+  },
+  {
+    "employee_id": 66,
+    "employee_name": "Tilahun Zewadi",
+    "contract_number": "5129-30",
+    "allocated_amount": 7268.6
+  },
+  {
+    "employee_id": 66,
+    "employee_name": "Tilahun Zewadi",
+    "contract_number": "5209-30",
+    "allocated_amount": 10902.9
+  },
+  {
+    "employee_id": 66,
+    "employee_name": "Tilahun Zewadi",
+    "contract_number": "5240-30",
+    "allocated_amount": 5814.88
+  },
+  {
+    "employee_id": 69,
+    "employee_name": "Yama Ahmadi",
+    "contract_number": "5213-30",
+    "allocated_amount": 38250.0
+  },
+  {
+    "employee_id": 70,
+    "employee_name": "Ziai Shafiullah",
+    "contract_number": "5147-30",
+    "allocated_amount": 7150.0
+  },
+  {
+    "employee_id": 70,
+    "employee_name": "Ziai Shafiullah",
+    "contract_number": "5176-30",
+    "allocated_amount": 6500.0
+  },
+  {
+    "employee_id": 70,
+    "employee_name": "Ziai Shafiullah",
+    "contract_number": "5129-30",
+    "allocated_amount": 6500.0
+  },
+  {
+    "employee_id": 70,
+    "employee_name": "Ziai Shafiullah",
+    "contract_number": "5211-30",
+    "allocated_amount": 6500.0
+  },
+  {
+    "employee_id": 70,
+    "employee_name": "Ziai Shafiullah",
+    "contract_number": "5209-30",
+    "allocated_amount": 9100.0
+  },
+  {
+    "employee_id": 70,
+    "employee_name": "Ziai Shafiullah",
+    "contract_number": "5227-30",
+    "allocated_amount": 9750.0
+  },
+  {
+    "employee_id": 71,
+    "employee_name": "TBH - Annie Phillips",
+    "contract_number": "5245-30",
+    "allocated_amount": 50000.0
+  },
+  {
+    "employee_id": 72,
+    "employee_name": "TBH - Case Manager",
+    "contract_number": "5245-30",
+    "allocated_amount": 25000.0
+  },
+  {
+    "employee_id": 72,
+    "employee_name": "TBH - Case Manager",
+    "contract_number": "5245-33",
+    "allocated_amount": 13125.0
+  },
+  {
+    "employee_id": 73,
+    "employee_name": "TBH - Outreach Coordinator",
+    "contract_number": "5245-30",
+    "allocated_amount": 25000.0
+  },
+  {
+    "employee_id": 73,
+    "employee_name": "TBH - Outreach Coordinator",
+    "contract_number": "5245-33",
+    "allocated_amount": 13125.0
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5208-30",
+    "allocated_amount": 68195.65
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5147-30",
+    "allocated_amount": 90667.43000000001
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5176-30",
+    "allocated_amount": 18219.75
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5129-30",
+    "allocated_amount": 72651.62
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5211-30",
+    "allocated_amount": 44328.200000000004
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5209-30",
+    "allocated_amount": 88436.88
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5227-30",
+    "allocated_amount": 31695.0
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5240-30",
+    "allocated_amount": 93947.21359999999
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5208-33",
+    "allocated_amount": 59786.72
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5124-33",
+    "allocated_amount": 52238.04
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5147-33",
+    "allocated_amount": 24756.3
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5176-33",
+    "allocated_amount": 14700.0
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5145-33",
+    "allocated_amount": 94569.22
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5166-33",
+    "allocated_amount": 17223.52
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5175-33",
+    "allocated_amount": 2625.0
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5211-33",
+    "allocated_amount": 30178.64
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5209-33",
+    "allocated_amount": 50431.56
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5227-33",
+    "allocated_amount": 32902.270000000004
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5240-33",
+    "allocated_amount": 93416.45999999999
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5222-33",
+    "allocated_amount": 57799.75
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5222-30",
+    "allocated_amount": 119604.81
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5245-30",
+    "allocated_amount": 182780.64
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5245-33",
+    "allocated_amount": 131619.66
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "5213-30",
+    "allocated_amount": 167050.45
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "2130-33",
+    "allocated_amount": 3502.3
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "2103-30",
+    "allocated_amount": 19353.41
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "1060-30",
+    "allocated_amount": 6000.0
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "3002-30",
+    "allocated_amount": 24132.72
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "2025-30",
+    "allocated_amount": 2961.54
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "2126-30",
+    "allocated_amount": 72648.475
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "4007-30",
+    "allocated_amount": 18101.34
+  },
+  {
+    "employee_id": 85,
+    "employee_name": "TBH Job Developer VA",
+    "contract_number": "2060-30",
+    "allocated_amount": 63826.950000000004
+  }
+]

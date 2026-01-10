@@ -1,0 +1,5834 @@
+[
+  {
+    "employee_id": 1,
+    "employee_name": "Jenna",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 1,
+    "employee_name": "Jenna",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 1,
+    "employee_name": "Jenna",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 1,
+    "employee_name": "Jenna",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 1,
+    "employee_name": "Jenna",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 1,
+    "employee_name": "Jenna",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 1,
+    "employee_name": "Jenna",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 1,
+    "employee_name": "Jenna",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 2,
+    "employee_name": "Abeer",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 2,
+    "employee_name": "Abeer",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 2,
+    "employee_name": "Abeer",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 2,
+    "employee_name": "Abeer",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 2,
+    "employee_name": "Abeer",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 2,
+    "employee_name": "Abeer",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 2,
+    "employee_name": "Abeer",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 2,
+    "employee_name": "Abeer",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 2,
+    "employee_name": "Abeer",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 2,
+    "employee_name": "Abeer",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 3,
+    "employee_name": "ABI",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 3,
+    "employee_name": "ABI",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 3,
+    "employee_name": "ABI",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 3,
+    "employee_name": "ABI",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 3,
+    "employee_name": "ABI",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 3,
+    "employee_name": "ABI",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 3,
+    "employee_name": "ABI",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 3,
+    "employee_name": "ABI",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 3,
+    "employee_name": "ABI",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 3,
+    "employee_name": "ABI",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 4,
+    "employee_name": "Aemal",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2115.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 4,
+    "employee_name": "Aemal",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2115.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 4,
+    "employee_name": "Aemal",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2115.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 4,
+    "employee_name": "Aemal",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2115.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 4,
+    "employee_name": "Aemal",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2115.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 4,
+    "employee_name": "Aemal",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2115.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 4,
+    "employee_name": "Aemal",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2115.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 4,
+    "employee_name": "Aemal",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2115.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 4,
+    "employee_name": "Aemal",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2115.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 4,
+    "employee_name": "Aemal",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2115.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ahmed Seyar Auobi",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ahmed Seyar Auobi",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ahmed Seyar Auobi",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ahmed Seyar Auobi",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ahmed Seyar Auobi",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ahmed Seyar Auobi",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ahmed Seyar Auobi",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ahmed Seyar Auobi",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ahmed Seyar Auobi",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 5,
+    "employee_name": "Ahmed Seyar Auobi",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 6,
+    "employee_name": "Ajmal Amiri",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 6,
+    "employee_name": "Ajmal Amiri",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 6,
+    "employee_name": "Ajmal Amiri",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 6,
+    "employee_name": "Ajmal Amiri",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 6,
+    "employee_name": "Ajmal Amiri",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 6,
+    "employee_name": "Ajmal Amiri",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 6,
+    "employee_name": "Ajmal Amiri",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 6,
+    "employee_name": "Ajmal Amiri",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 6,
+    "employee_name": "Ajmal Amiri",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 6,
+    "employee_name": "Ajmal Amiri",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 7,
+    "employee_name": "Akilu Debalkew",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 7,
+    "employee_name": "Akilu Debalkew",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 7,
+    "employee_name": "Akilu Debalkew",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 7,
+    "employee_name": "Akilu Debalkew",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 7,
+    "employee_name": "Akilu Debalkew",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 7,
+    "employee_name": "Akilu Debalkew",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 7,
+    "employee_name": "Akilu Debalkew",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 7,
+    "employee_name": "Akilu Debalkew",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 7,
+    "employee_name": "Akilu Debalkew",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 7,
+    "employee_name": "Akilu Debalkew",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 8,
+    "employee_name": "Ajmal Khurram",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 8,
+    "employee_name": "Ajmal Khurram",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 8,
+    "employee_name": "Ajmal Khurram",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 8,
+    "employee_name": "Ajmal Khurram",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 8,
+    "employee_name": "Ajmal Khurram",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 8,
+    "employee_name": "Ajmal Khurram",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 8,
+    "employee_name": "Ajmal Khurram",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 8,
+    "employee_name": "Ajmal Khurram",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Anna Kurzer",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Anna Kurzer",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Anna Kurzer",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Anna Kurzer",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Anna Kurzer",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Anna Kurzer",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Anna Kurzer",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Anna Kurzer",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Anna Kurzer",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 9,
+    "employee_name": "Anna Kurzer",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 10,
+    "employee_name": "Annie Phillips",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 10,
+    "employee_name": "Annie Phillips",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 10,
+    "employee_name": "Annie Phillips",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 10,
+    "employee_name": "Annie Phillips",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 10,
+    "employee_name": "Annie Phillips",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 10,
+    "employee_name": "Annie Phillips",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 10,
+    "employee_name": "Annie Phillips",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 10,
+    "employee_name": "Annie Phillips",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 10,
+    "employee_name": "Annie Phillips",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 10,
+    "employee_name": "Annie Phillips",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 11,
+    "employee_name": "Atakhleti",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2616.512,
+    "contract_number": null
+  },
+  {
+    "employee_id": 11,
+    "employee_name": "Atakhleti",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2616.512,
+    "contract_number": null
+  },
+  {
+    "employee_id": 11,
+    "employee_name": "Atakhleti",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2616.512,
+    "contract_number": null
+  },
+  {
+    "employee_id": 11,
+    "employee_name": "Atakhleti",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2616.512,
+    "contract_number": null
+  },
+  {
+    "employee_id": 11,
+    "employee_name": "Atakhleti",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2616.512,
+    "contract_number": null
+  },
+  {
+    "employee_id": 11,
+    "employee_name": "Atakhleti",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2616.512,
+    "contract_number": null
+  },
+  {
+    "employee_id": 11,
+    "employee_name": "Atakhleti",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2616.512,
+    "contract_number": null
+  },
+  {
+    "employee_id": 11,
+    "employee_name": "Atakhleti",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2616.512,
+    "contract_number": null
+  },
+  {
+    "employee_id": 11,
+    "employee_name": "Atakhleti",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2616.512,
+    "contract_number": null
+  },
+  {
+    "employee_id": 11,
+    "employee_name": "Atakhleti",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2616.512,
+    "contract_number": null
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Baig",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Baig",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Baig",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Baig",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Baig",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Baig",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Baig",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Baig",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Baig",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 12,
+    "employee_name": "Baig",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 13,
+    "employee_name": "Barbara Callen",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 13,
+    "employee_name": "Barbara Callen",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 13,
+    "employee_name": "Barbara Callen",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 13,
+    "employee_name": "Barbara Callen",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 13,
+    "employee_name": "Barbara Callen",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 13,
+    "employee_name": "Barbara Callen",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 13,
+    "employee_name": "Barbara Callen",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 13,
+    "employee_name": "Barbara Callen",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 13,
+    "employee_name": "Barbara Callen",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 13,
+    "employee_name": "Barbara Callen",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Baryalai Rawan",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Baryalai Rawan",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Baryalai Rawan",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Baryalai Rawan",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Baryalai Rawan",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Baryalai Rawan",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Baryalai Rawan",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Baryalai Rawan",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Baryalai Rawan",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 14,
+    "employee_name": "Baryalai Rawan",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 15,
+    "employee_name": "Bethelem",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 15,
+    "employee_name": "Bethelem",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 15,
+    "employee_name": "Bethelem",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 15,
+    "employee_name": "Bethelem",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 15,
+    "employee_name": "Bethelem",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 15,
+    "employee_name": "Bethelem",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 15,
+    "employee_name": "Bethelem",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 15,
+    "employee_name": "Bethelem",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 15,
+    "employee_name": "Bethelem",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 15,
+    "employee_name": "Bethelem",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 16,
+    "employee_name": "Bob Elston",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 16,
+    "employee_name": "Bob Elston",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 16,
+    "employee_name": "Bob Elston",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 16,
+    "employee_name": "Bob Elston",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 16,
+    "employee_name": "Bob Elston",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 16,
+    "employee_name": "Bob Elston",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 16,
+    "employee_name": "Bob Elston",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 16,
+    "employee_name": "Bob Elston",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 16,
+    "employee_name": "Bob Elston",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 16,
+    "employee_name": "Bob Elston",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 17,
+    "employee_name": "TBH - Lia Russel",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2115.3846153846152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 17,
+    "employee_name": "TBH - Lia Russel",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2115.3846153846152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 17,
+    "employee_name": "TBH - Lia Russel",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2115.3846153846152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 17,
+    "employee_name": "TBH - Lia Russel",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2115.3846153846152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 17,
+    "employee_name": "TBH - Lia Russel",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2115.3846153846152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 17,
+    "employee_name": "TBH - Lia Russel",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2115.3846153846152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 17,
+    "employee_name": "TBH - Lia Russel",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2115.3846153846152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 18,
+    "employee_name": "Christina",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 18,
+    "employee_name": "Christina",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 18,
+    "employee_name": "Christina",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 18,
+    "employee_name": "Christina",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 18,
+    "employee_name": "Christina",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 18,
+    "employee_name": "Christina",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 18,
+    "employee_name": "Christina",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 18,
+    "employee_name": "Christina",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 18,
+    "employee_name": "Christina",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 18,
+    "employee_name": "Christina",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Cynthia Cole",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Cynthia Cole",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Cynthia Cole",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Cynthia Cole",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Cynthia Cole",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Cynthia Cole",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Cynthia Cole",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Cynthia Cole",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Cynthia Cole",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 19,
+    "employee_name": "Cynthia Cole",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 20,
+    "employee_name": "Dagim McKonnen",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 20,
+    "employee_name": "Dagim McKonnen",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 20,
+    "employee_name": "Dagim McKonnen",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 20,
+    "employee_name": "Dagim McKonnen",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 20,
+    "employee_name": "Dagim McKonnen",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 20,
+    "employee_name": "Dagim McKonnen",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 20,
+    "employee_name": "Dagim McKonnen",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 20,
+    "employee_name": "Dagim McKonnen",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 20,
+    "employee_name": "Dagim McKonnen",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 20,
+    "employee_name": "Dagim McKonnen",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 21,
+    "employee_name": "Desiree",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 21,
+    "employee_name": "Desiree",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 21,
+    "employee_name": "Desiree",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 21,
+    "employee_name": "Desiree",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 21,
+    "employee_name": "Desiree",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 21,
+    "employee_name": "Desiree",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 21,
+    "employee_name": "Desiree",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 21,
+    "employee_name": "Desiree",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 21,
+    "employee_name": "Desiree",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 21,
+    "employee_name": "Desiree",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 22,
+    "employee_name": "Earnest",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 22,
+    "employee_name": "Earnest",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 22,
+    "employee_name": "Earnest",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 22,
+    "employee_name": "Earnest",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 22,
+    "employee_name": "Earnest",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 22,
+    "employee_name": "Earnest",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 22,
+    "employee_name": "Earnest",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 22,
+    "employee_name": "Earnest",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 22,
+    "employee_name": "Earnest",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 22,
+    "employee_name": "Earnest",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 23,
+    "employee_name": "Eftihia",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2580.568,
+    "contract_number": null
+  },
+  {
+    "employee_id": 23,
+    "employee_name": "Eftihia",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2580.568,
+    "contract_number": null
+  },
+  {
+    "employee_id": 23,
+    "employee_name": "Eftihia",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2580.568,
+    "contract_number": null
+  },
+  {
+    "employee_id": 23,
+    "employee_name": "Eftihia",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2580.568,
+    "contract_number": null
+  },
+  {
+    "employee_id": 23,
+    "employee_name": "Eftihia",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2580.568,
+    "contract_number": null
+  },
+  {
+    "employee_id": 23,
+    "employee_name": "Eftihia",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2580.568,
+    "contract_number": null
+  },
+  {
+    "employee_id": 23,
+    "employee_name": "Eftihia",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2580.568,
+    "contract_number": null
+  },
+  {
+    "employee_id": 23,
+    "employee_name": "Eftihia",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2580.568,
+    "contract_number": null
+  },
+  {
+    "employee_id": 23,
+    "employee_name": "Eftihia",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2580.568,
+    "contract_number": null
+  },
+  {
+    "employee_id": 23,
+    "employee_name": "Eftihia",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2580.568,
+    "contract_number": null
+  },
+  {
+    "employee_id": 24,
+    "employee_name": "Egosia",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 24,
+    "employee_name": "Egosia",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 24,
+    "employee_name": "Egosia",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 24,
+    "employee_name": "Egosia",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 24,
+    "employee_name": "Egosia",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 24,
+    "employee_name": "Egosia",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 24,
+    "employee_name": "Egosia",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 24,
+    "employee_name": "Egosia",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 24,
+    "employee_name": "Egosia",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 24,
+    "employee_name": "Egosia",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 25,
+    "employee_name": "Elizaabeth",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 25,
+    "employee_name": "Elizaabeth",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 25,
+    "employee_name": "Elizaabeth",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 25,
+    "employee_name": "Elizaabeth",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 25,
+    "employee_name": "Elizaabeth",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 25,
+    "employee_name": "Elizaabeth",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 25,
+    "employee_name": "Elizaabeth",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 25,
+    "employee_name": "Elizaabeth",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 25,
+    "employee_name": "Elizaabeth",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 25,
+    "employee_name": "Elizaabeth",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 26,
+    "employee_name": "Emebet Ashagre",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2692.312,
+    "contract_number": null
+  },
+  {
+    "employee_id": 26,
+    "employee_name": "Emebet Ashagre",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2692.312,
+    "contract_number": null
+  },
+  {
+    "employee_id": 26,
+    "employee_name": "Emebet Ashagre",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2692.312,
+    "contract_number": null
+  },
+  {
+    "employee_id": 26,
+    "employee_name": "Emebet Ashagre",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2692.312,
+    "contract_number": null
+  },
+  {
+    "employee_id": 26,
+    "employee_name": "Emebet Ashagre",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2692.312,
+    "contract_number": null
+  },
+  {
+    "employee_id": 26,
+    "employee_name": "Emebet Ashagre",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2692.312,
+    "contract_number": null
+  },
+  {
+    "employee_id": 26,
+    "employee_name": "Emebet Ashagre",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2692.312,
+    "contract_number": null
+  },
+  {
+    "employee_id": 26,
+    "employee_name": "Emebet Ashagre",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2692.312,
+    "contract_number": null
+  },
+  {
+    "employee_id": 26,
+    "employee_name": "Emebet Ashagre",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2692.312,
+    "contract_number": null
+  },
+  {
+    "employee_id": 26,
+    "employee_name": "Emebet Ashagre",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2692.312,
+    "contract_number": null
+  },
+  {
+    "employee_id": 29,
+    "employee_name": "Esra Bayrakthar",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 3276.664,
+    "contract_number": null
+  },
+  {
+    "employee_id": 29,
+    "employee_name": "Esra Bayrakthar",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 3276.664,
+    "contract_number": null
+  },
+  {
+    "employee_id": 29,
+    "employee_name": "Esra Bayrakthar",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 3276.664,
+    "contract_number": null
+  },
+  {
+    "employee_id": 29,
+    "employee_name": "Esra Bayrakthar",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 3276.664,
+    "contract_number": null
+  },
+  {
+    "employee_id": 29,
+    "employee_name": "Esra Bayrakthar",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 3276.664,
+    "contract_number": null
+  },
+  {
+    "employee_id": 29,
+    "employee_name": "Esra Bayrakthar",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 3276.664,
+    "contract_number": null
+  },
+  {
+    "employee_id": 29,
+    "employee_name": "Esra Bayrakthar",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 3276.664,
+    "contract_number": null
+  },
+  {
+    "employee_id": 29,
+    "employee_name": "Esra Bayrakthar",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 3276.664,
+    "contract_number": null
+  },
+  {
+    "employee_id": 29,
+    "employee_name": "Esra Bayrakthar",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 3276.664,
+    "contract_number": null
+  },
+  {
+    "employee_id": 29,
+    "employee_name": "Esra Bayrakthar",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 3276.664,
+    "contract_number": null
+  },
+  {
+    "employee_id": 30,
+    "employee_name": "Evette",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1400.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 30,
+    "employee_name": "Evette",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1400.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 30,
+    "employee_name": "Evette",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1400.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 30,
+    "employee_name": "Evette",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1400.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 30,
+    "employee_name": "Evette",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1400.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 30,
+    "employee_name": "Evette",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1400.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 30,
+    "employee_name": "Evette",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1400.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 30,
+    "employee_name": "Evette",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1400.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 30,
+    "employee_name": "Evette",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1400.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 30,
+    "employee_name": "Evette",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1400.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 32,
+    "employee_name": "Faye",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 32,
+    "employee_name": "Faye",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 32,
+    "employee_name": "Faye",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 32,
+    "employee_name": "Faye",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 32,
+    "employee_name": "Faye",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 32,
+    "employee_name": "Faye",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 32,
+    "employee_name": "Faye",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 32,
+    "employee_name": "Faye",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 32,
+    "employee_name": "Faye",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 32,
+    "employee_name": "Faye",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 33,
+    "employee_name": "Ferdawok",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2273.368,
+    "contract_number": null
+  },
+  {
+    "employee_id": 33,
+    "employee_name": "Ferdawok",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2273.368,
+    "contract_number": null
+  },
+  {
+    "employee_id": 33,
+    "employee_name": "Ferdawok",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2273.368,
+    "contract_number": null
+  },
+  {
+    "employee_id": 33,
+    "employee_name": "Ferdawok",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2273.368,
+    "contract_number": null
+  },
+  {
+    "employee_id": 33,
+    "employee_name": "Ferdawok",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2273.368,
+    "contract_number": null
+  },
+  {
+    "employee_id": 33,
+    "employee_name": "Ferdawok",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2273.368,
+    "contract_number": null
+  },
+  {
+    "employee_id": 33,
+    "employee_name": "Ferdawok",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2273.368,
+    "contract_number": null
+  },
+  {
+    "employee_id": 33,
+    "employee_name": "Ferdawok",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2273.368,
+    "contract_number": null
+  },
+  {
+    "employee_id": 33,
+    "employee_name": "Ferdawok",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2273.368,
+    "contract_number": null
+  },
+  {
+    "employee_id": 33,
+    "employee_name": "Ferdawok",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2273.368,
+    "contract_number": null
+  },
+  {
+    "employee_id": 34,
+    "employee_name": "Firdus",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1344.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 34,
+    "employee_name": "Firdus",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1344.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 34,
+    "employee_name": "Firdus",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1344.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 34,
+    "employee_name": "Firdus",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1344.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 34,
+    "employee_name": "Firdus",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1344.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 34,
+    "employee_name": "Firdus",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1344.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 34,
+    "employee_name": "Firdus",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1344.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 34,
+    "employee_name": "Firdus",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 395.15,
+    "contract_number": null
+  },
+  {
+    "employee_id": 35,
+    "employee_name": "Florance",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 35,
+    "employee_name": "Florance",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 35,
+    "employee_name": "Florance",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 35,
+    "employee_name": "Florance",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 35,
+    "employee_name": "Florance",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 35,
+    "employee_name": "Florance",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 35,
+    "employee_name": "Florance",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 35,
+    "employee_name": "Florance",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 35,
+    "employee_name": "Florance",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 35,
+    "employee_name": "Florance",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 37,
+    "employee_name": "Freshta Atmar",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 37,
+    "employee_name": "Freshta Atmar",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 37,
+    "employee_name": "Freshta Atmar",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 37,
+    "employee_name": "Freshta Atmar",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 37,
+    "employee_name": "Freshta Atmar",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 37,
+    "employee_name": "Freshta Atmar",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 37,
+    "employee_name": "Freshta Atmar",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 37,
+    "employee_name": "Freshta Atmar",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 37,
+    "employee_name": "Freshta Atmar",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 37,
+    "employee_name": "Freshta Atmar",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 38,
+    "employee_name": "Frishta Khalil",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 38,
+    "employee_name": "Frishta Khalil",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 38,
+    "employee_name": "Frishta Khalil",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 38,
+    "employee_name": "Frishta Khalil",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 38,
+    "employee_name": "Frishta Khalil",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 38,
+    "employee_name": "Frishta Khalil",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 38,
+    "employee_name": "Frishta Khalil",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 38,
+    "employee_name": "Frishta Khalil",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 38,
+    "employee_name": "Frishta Khalil",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 38,
+    "employee_name": "Frishta Khalil",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Ganna",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Ganna",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Ganna",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Ganna",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Ganna",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Ganna",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Ganna",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Ganna",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Ganna",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 39,
+    "employee_name": "Ganna",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 40,
+    "employee_name": "Parwana Noori",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 40,
+    "employee_name": "Parwana Noori",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 40,
+    "employee_name": "Parwana Noori",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 40,
+    "employee_name": "Parwana Noori",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 40,
+    "employee_name": "Parwana Noori",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 40,
+    "employee_name": "Parwana Noori",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 40,
+    "employee_name": "Parwana Noori",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 40,
+    "employee_name": "Parwana Noori",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 41,
+    "employee_name": "Gelila",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 41,
+    "employee_name": "Gelila",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 41,
+    "employee_name": "Gelila",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 41,
+    "employee_name": "Gelila",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 41,
+    "employee_name": "Gelila",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 41,
+    "employee_name": "Gelila",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 41,
+    "employee_name": "Gelila",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 41,
+    "employee_name": "Gelila",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 41,
+    "employee_name": "Gelila",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 41,
+    "employee_name": "Gelila",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 42,
+    "employee_name": "Hamdard",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 42,
+    "employee_name": "Hamdard",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 42,
+    "employee_name": "Hamdard",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 42,
+    "employee_name": "Hamdard",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 42,
+    "employee_name": "Hamdard",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 42,
+    "employee_name": "Hamdard",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 42,
+    "employee_name": "Hamdard",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 42,
+    "employee_name": "Hamdard",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 42,
+    "employee_name": "Hamdard",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 42,
+    "employee_name": "Hamdard",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2500.0,
+    "contract_number": null
+  },
+  {
+    "employee_id": 43,
+    "employee_name": "Helen Gebru",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2884.6152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 43,
+    "employee_name": "Helen Gebru",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2884.6152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 43,
+    "employee_name": "Helen Gebru",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2884.6152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 43,
+    "employee_name": "Helen Gebru",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2884.6152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 43,
+    "employee_name": "Helen Gebru",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2884.6152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 43,
+    "employee_name": "Helen Gebru",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2884.6152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 43,
+    "employee_name": "Helen Gebru",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2884.6152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 43,
+    "employee_name": "Helen Gebru",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2884.6152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 43,
+    "employee_name": "Helen Gebru",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2884.6152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 43,
+    "employee_name": "Helen Gebru",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2884.6152,
+    "contract_number": null
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Henok",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Henok",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Henok",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Henok",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Henok",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Henok",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Henok",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Henok",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Henok",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 44,
+    "employee_name": "Henok",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 45,
+    "employee_name": "Ibraham Diallo",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 45,
+    "employee_name": "Ibraham Diallo",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 45,
+    "employee_name": "Ibraham Diallo",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 45,
+    "employee_name": "Ibraham Diallo",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 45,
+    "employee_name": "Ibraham Diallo",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 45,
+    "employee_name": "Ibraham Diallo",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 45,
+    "employee_name": "Ibraham Diallo",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 45,
+    "employee_name": "Ibraham Diallo",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 45,
+    "employee_name": "Ibraham Diallo",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 45,
+    "employee_name": "Ibraham Diallo",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 46,
+    "employee_name": "Indigo",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 46,
+    "employee_name": "Indigo",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 46,
+    "employee_name": "Indigo",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 46,
+    "employee_name": "Indigo",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 46,
+    "employee_name": "Indigo",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 46,
+    "employee_name": "Indigo",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 46,
+    "employee_name": "Indigo",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 46,
+    "employee_name": "Indigo",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 46,
+    "employee_name": "Indigo",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 46,
+    "employee_name": "Indigo",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 47,
+    "employee_name": "Iriana Lessen",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 47,
+    "employee_name": "Iriana Lessen",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 47,
+    "employee_name": "Iriana Lessen",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 47,
+    "employee_name": "Iriana Lessen",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 47,
+    "employee_name": "Iriana Lessen",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 47,
+    "employee_name": "Iriana Lessen",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 47,
+    "employee_name": "Iriana Lessen",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 47,
+    "employee_name": "Iriana Lessen",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 47,
+    "employee_name": "Iriana Lessen",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 47,
+    "employee_name": "Iriana Lessen",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2414.472,
+    "contract_number": null
+  },
+  {
+    "employee_id": 48,
+    "employee_name": "Iryna Gaiduk",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 48,
+    "employee_name": "Iryna Gaiduk",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 48,
+    "employee_name": "Iryna Gaiduk",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 48,
+    "employee_name": "Iryna Gaiduk",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 48,
+    "employee_name": "Iryna Gaiduk",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 48,
+    "employee_name": "Iryna Gaiduk",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 48,
+    "employee_name": "Iryna Gaiduk",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 48,
+    "employee_name": "Iryna Gaiduk",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 48,
+    "employee_name": "Iryna Gaiduk",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 48,
+    "employee_name": "Iryna Gaiduk",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 49,
+    "employee_name": "Jamal Noori",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 49,
+    "employee_name": "Jamal Noori",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 49,
+    "employee_name": "Jamal Noori",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 49,
+    "employee_name": "Jamal Noori",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 49,
+    "employee_name": "Jamal Noori",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 49,
+    "employee_name": "Jamal Noori",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 49,
+    "employee_name": "Jamal Noori",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 49,
+    "employee_name": "Jamal Noori",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 49,
+    "employee_name": "Jamal Noori",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 49,
+    "employee_name": "Jamal Noori",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 50,
+    "employee_name": "Jean",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 50,
+    "employee_name": "Jean",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 50,
+    "employee_name": "Jean",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 50,
+    "employee_name": "Jean",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 50,
+    "employee_name": "Jean",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 50,
+    "employee_name": "Jean",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 50,
+    "employee_name": "Jean",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 50,
+    "employee_name": "Jean",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 50,
+    "employee_name": "Jean",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 50,
+    "employee_name": "Jean",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 51,
+    "employee_name": "Jehanzeb Louis",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 3076.92,
+    "contract_number": null
+  },
+  {
+    "employee_id": 51,
+    "employee_name": "Jehanzeb Louis",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 3076.92,
+    "contract_number": null
+  },
+  {
+    "employee_id": 51,
+    "employee_name": "Jehanzeb Louis",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 3076.92,
+    "contract_number": null
+  },
+  {
+    "employee_id": 51,
+    "employee_name": "Jehanzeb Louis",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 3076.92,
+    "contract_number": null
+  },
+  {
+    "employee_id": 51,
+    "employee_name": "Jehanzeb Louis",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 3076.92,
+    "contract_number": null
+  },
+  {
+    "employee_id": 51,
+    "employee_name": "Jehanzeb Louis",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 3076.92,
+    "contract_number": null
+  },
+  {
+    "employee_id": 51,
+    "employee_name": "Jehanzeb Louis",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 3076.92,
+    "contract_number": null
+  },
+  {
+    "employee_id": 51,
+    "employee_name": "Jehanzeb Louis",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 3076.92,
+    "contract_number": null
+  },
+  {
+    "employee_id": 51,
+    "employee_name": "Jehanzeb Louis",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 3076.92,
+    "contract_number": null
+  },
+  {
+    "employee_id": 51,
+    "employee_name": "Jehanzeb Louis",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 3076.92,
+    "contract_number": null
+  },
+  {
+    "employee_id": 52,
+    "employee_name": "Jeremy Schimmel",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2240.392,
+    "contract_number": null
+  },
+  {
+    "employee_id": 52,
+    "employee_name": "Jeremy Schimmel",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2240.392,
+    "contract_number": null
+  },
+  {
+    "employee_id": 52,
+    "employee_name": "Jeremy Schimmel",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2240.392,
+    "contract_number": null
+  },
+  {
+    "employee_id": 52,
+    "employee_name": "Jeremy Schimmel",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2240.392,
+    "contract_number": null
+  },
+  {
+    "employee_id": 52,
+    "employee_name": "Jeremy Schimmel",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2240.392,
+    "contract_number": null
+  },
+  {
+    "employee_id": 52,
+    "employee_name": "Jeremy Schimmel",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2240.392,
+    "contract_number": null
+  },
+  {
+    "employee_id": 52,
+    "employee_name": "Jeremy Schimmel",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2240.392,
+    "contract_number": null
+  },
+  {
+    "employee_id": 52,
+    "employee_name": "Jeremy Schimmel",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2240.392,
+    "contract_number": null
+  },
+  {
+    "employee_id": 52,
+    "employee_name": "Jeremy Schimmel",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2240.392,
+    "contract_number": null
+  },
+  {
+    "employee_id": 52,
+    "employee_name": "Jeremy Schimmel",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2240.392,
+    "contract_number": null
+  },
+  {
+    "employee_id": 53,
+    "employee_name": "Kamela Azizi",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 53,
+    "employee_name": "Kamela Azizi",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 53,
+    "employee_name": "Kamela Azizi",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 53,
+    "employee_name": "Kamela Azizi",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 53,
+    "employee_name": "Kamela Azizi",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 53,
+    "employee_name": "Kamela Azizi",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 53,
+    "employee_name": "Kamela Azizi",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 53,
+    "employee_name": "Kamela Azizi",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 53,
+    "employee_name": "Kamela Azizi",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 53,
+    "employee_name": "Kamela Azizi",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2252.88,
+    "contract_number": null
+  },
+  {
+    "employee_id": 54,
+    "employee_name": "Konjit",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2500.704,
+    "contract_number": null
+  },
+  {
+    "employee_id": 54,
+    "employee_name": "Konjit",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2500.704,
+    "contract_number": null
+  },
+  {
+    "employee_id": 54,
+    "employee_name": "Konjit",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2500.704,
+    "contract_number": null
+  },
+  {
+    "employee_id": 54,
+    "employee_name": "Konjit",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2500.704,
+    "contract_number": null
+  },
+  {
+    "employee_id": 54,
+    "employee_name": "Konjit",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2500.704,
+    "contract_number": null
+  },
+  {
+    "employee_id": 54,
+    "employee_name": "Konjit",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2500.704,
+    "contract_number": null
+  },
+  {
+    "employee_id": 54,
+    "employee_name": "Konjit",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2500.704,
+    "contract_number": null
+  },
+  {
+    "employee_id": 54,
+    "employee_name": "Konjit",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2500.704,
+    "contract_number": null
+  },
+  {
+    "employee_id": 54,
+    "employee_name": "Konjit",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2500.704,
+    "contract_number": null
+  },
+  {
+    "employee_id": 54,
+    "employee_name": "Konjit",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2500.704,
+    "contract_number": null
+  },
+  {
+    "employee_id": 55,
+    "employee_name": "Laryssa Romenko",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 55,
+    "employee_name": "Laryssa Romenko",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 55,
+    "employee_name": "Laryssa Romenko",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 55,
+    "employee_name": "Laryssa Romenko",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 55,
+    "employee_name": "Laryssa Romenko",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 55,
+    "employee_name": "Laryssa Romenko",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 55,
+    "employee_name": "Laryssa Romenko",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 55,
+    "employee_name": "Laryssa Romenko",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 55,
+    "employee_name": "Laryssa Romenko",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 55,
+    "employee_name": "Laryssa Romenko",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2222.168,
+    "contract_number": null
+  },
+  {
+    "employee_id": 56,
+    "employee_name": "Lema",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 56,
+    "employee_name": "Lema",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 56,
+    "employee_name": "Lema",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 56,
+    "employee_name": "Lema",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 56,
+    "employee_name": "Lema",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 56,
+    "employee_name": "Lema",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 56,
+    "employee_name": "Lema",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 56,
+    "employee_name": "Lema",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 56,
+    "employee_name": "Lema",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 56,
+    "employee_name": "Lema",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 57,
+    "employee_name": "Leyu",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 57,
+    "employee_name": "Leyu",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 57,
+    "employee_name": "Leyu",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 57,
+    "employee_name": "Leyu",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 57,
+    "employee_name": "Leyu",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 57,
+    "employee_name": "Leyu",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 57,
+    "employee_name": "Leyu",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 57,
+    "employee_name": "Leyu",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 57,
+    "employee_name": "Leyu",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 57,
+    "employee_name": "Leyu",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 58,
+    "employee_name": "Manizha Nuzhat",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 58,
+    "employee_name": "Manizha Nuzhat",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 58,
+    "employee_name": "Manizha Nuzhat",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 58,
+    "employee_name": "Manizha Nuzhat",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 58,
+    "employee_name": "Manizha Nuzhat",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 58,
+    "employee_name": "Manizha Nuzhat",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 58,
+    "employee_name": "Manizha Nuzhat",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 58,
+    "employee_name": "Manizha Nuzhat",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 58,
+    "employee_name": "Manizha Nuzhat",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 58,
+    "employee_name": "Manizha Nuzhat",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 59,
+    "employee_name": "Maramjan Sadaqat",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 59,
+    "employee_name": "Maramjan Sadaqat",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 59,
+    "employee_name": "Maramjan Sadaqat",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 59,
+    "employee_name": "Maramjan Sadaqat",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 59,
+    "employee_name": "Maramjan Sadaqat",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 59,
+    "employee_name": "Maramjan Sadaqat",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 59,
+    "employee_name": "Maramjan Sadaqat",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 59,
+    "employee_name": "Maramjan Sadaqat",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 59,
+    "employee_name": "Maramjan Sadaqat",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 59,
+    "employee_name": "Maramjan Sadaqat",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "Maryam",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "Maryam",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "Maryam",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "Maryam",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "Maryam",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "Maryam",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "Maryam",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "Maryam",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "Maryam",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 60,
+    "employee_name": "Maryam",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Albab Azeze",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Albab Azeze",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Albab Azeze",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Albab Azeze",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Albab Azeze",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Albab Azeze",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Albab Azeze",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Albab Azeze",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Albab Azeze",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 61,
+    "employee_name": "Albab Azeze",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 62,
+    "employee_name": "Megdad",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 62,
+    "employee_name": "Megdad",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 62,
+    "employee_name": "Megdad",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 62,
+    "employee_name": "Megdad",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 62,
+    "employee_name": "Megdad",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 62,
+    "employee_name": "Megdad",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 62,
+    "employee_name": "Megdad",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 62,
+    "employee_name": "Megdad",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 62,
+    "employee_name": "Megdad",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 62,
+    "employee_name": "Megdad",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2222.16,
+    "contract_number": null
+  },
+  {
+    "employee_id": 63,
+    "employee_name": "Munsif Noor Ul Haq",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 63,
+    "employee_name": "Munsif Noor Ul Haq",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 63,
+    "employee_name": "Munsif Noor Ul Haq",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 63,
+    "employee_name": "Munsif Noor Ul Haq",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 63,
+    "employee_name": "Munsif Noor Ul Haq",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 63,
+    "employee_name": "Munsif Noor Ul Haq",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 63,
+    "employee_name": "Munsif Noor Ul Haq",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 63,
+    "employee_name": "Munsif Noor Ul Haq",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 63,
+    "employee_name": "Munsif Noor Ul Haq",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 63,
+    "employee_name": "Munsif Noor Ul Haq",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 64,
+    "employee_name": "TBH - Myrah Osmani",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2666.592,
+    "contract_number": null
+  },
+  {
+    "employee_id": 64,
+    "employee_name": "TBH - Myrah Osmani",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2666.592,
+    "contract_number": null
+  },
+  {
+    "employee_id": 64,
+    "employee_name": "TBH - Myrah Osmani",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2666.592,
+    "contract_number": null
+  },
+  {
+    "employee_id": 64,
+    "employee_name": "TBH - Myrah Osmani",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2666.592,
+    "contract_number": null
+  },
+  {
+    "employee_id": 64,
+    "employee_name": "TBH - Myrah Osmani",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2666.592,
+    "contract_number": null
+  },
+  {
+    "employee_id": 64,
+    "employee_name": "TBH - Myrah Osmani",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2666.592,
+    "contract_number": null
+  },
+  {
+    "employee_id": 64,
+    "employee_name": "TBH - Myrah Osmani",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2666.592,
+    "contract_number": null
+  },
+  {
+    "employee_id": 64,
+    "employee_name": "TBH - Myrah Osmani",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2666.592,
+    "contract_number": null
+  },
+  {
+    "employee_id": 64,
+    "employee_name": "TBH - Myrah Osmani",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2666.592,
+    "contract_number": null
+  },
+  {
+    "employee_id": 64,
+    "employee_name": "TBH - Myrah Osmani",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2666.592,
+    "contract_number": null
+  },
+  {
+    "employee_id": 65,
+    "employee_name": "Najia",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2457.696,
+    "contract_number": null
+  },
+  {
+    "employee_id": 65,
+    "employee_name": "Najia",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2457.696,
+    "contract_number": null
+  },
+  {
+    "employee_id": 65,
+    "employee_name": "Najia",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2457.696,
+    "contract_number": null
+  },
+  {
+    "employee_id": 65,
+    "employee_name": "Najia",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2457.696,
+    "contract_number": null
+  },
+  {
+    "employee_id": 65,
+    "employee_name": "Najia",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2457.696,
+    "contract_number": null
+  },
+  {
+    "employee_id": 65,
+    "employee_name": "Najia",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2457.696,
+    "contract_number": null
+  },
+  {
+    "employee_id": 65,
+    "employee_name": "Najia",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2457.696,
+    "contract_number": null
+  },
+  {
+    "employee_id": 65,
+    "employee_name": "Najia",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2457.696,
+    "contract_number": null
+  },
+  {
+    "employee_id": 65,
+    "employee_name": "Najia",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2457.696,
+    "contract_number": null
+  },
+  {
+    "employee_id": 65,
+    "employee_name": "Najia",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2457.696,
+    "contract_number": null
+  },
+  {
+    "employee_id": 66,
+    "employee_name": "Nassrullah Mohibi",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 66,
+    "employee_name": "Nassrullah Mohibi",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 66,
+    "employee_name": "Nassrullah Mohibi",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 66,
+    "employee_name": "Nassrullah Mohibi",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 66,
+    "employee_name": "Nassrullah Mohibi",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 66,
+    "employee_name": "Nassrullah Mohibi",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 66,
+    "employee_name": "Nassrullah Mohibi",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 66,
+    "employee_name": "Nassrullah Mohibi",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 66,
+    "employee_name": "Nassrullah Mohibi",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 66,
+    "employee_name": "Nassrullah Mohibi",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 68,
+    "employee_name": "Razia Mahrami",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 68,
+    "employee_name": "Razia Mahrami",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 68,
+    "employee_name": "Razia Mahrami",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 68,
+    "employee_name": "Razia Mahrami",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 68,
+    "employee_name": "Razia Mahrami",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 68,
+    "employee_name": "Razia Mahrami",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 68,
+    "employee_name": "Razia Mahrami",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 68,
+    "employee_name": "Razia Mahrami",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 68,
+    "employee_name": "Razia Mahrami",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 68,
+    "employee_name": "Razia Mahrami",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 69,
+    "employee_name": "Ruby Diaz",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 69,
+    "employee_name": "Ruby Diaz",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 69,
+    "employee_name": "Ruby Diaz",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 69,
+    "employee_name": "Ruby Diaz",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 69,
+    "employee_name": "Ruby Diaz",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 69,
+    "employee_name": "Ruby Diaz",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 69,
+    "employee_name": "Ruby Diaz",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 69,
+    "employee_name": "Ruby Diaz",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 69,
+    "employee_name": "Ruby Diaz",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 69,
+    "employee_name": "Ruby Diaz",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 70,
+    "employee_name": "Sana Amini",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 70,
+    "employee_name": "Sana Amini",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 70,
+    "employee_name": "Sana Amini",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 70,
+    "employee_name": "Sana Amini",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 70,
+    "employee_name": "Sana Amini",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 70,
+    "employee_name": "Sana Amini",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 70,
+    "employee_name": "Sana Amini",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 70,
+    "employee_name": "Sana Amini",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 70,
+    "employee_name": "Sana Amini",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 70,
+    "employee_name": "Sana Amini",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 71,
+    "employee_name": "Sarah Zullo",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 4013.856,
+    "contract_number": null
+  },
+  {
+    "employee_id": 71,
+    "employee_name": "Sarah Zullo",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 4013.856,
+    "contract_number": null
+  },
+  {
+    "employee_id": 71,
+    "employee_name": "Sarah Zullo",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 4013.856,
+    "contract_number": null
+  },
+  {
+    "employee_id": 71,
+    "employee_name": "Sarah Zullo",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 4013.856,
+    "contract_number": null
+  },
+  {
+    "employee_id": 71,
+    "employee_name": "Sarah Zullo",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 4013.856,
+    "contract_number": null
+  },
+  {
+    "employee_id": 71,
+    "employee_name": "Sarah Zullo",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 4013.856,
+    "contract_number": null
+  },
+  {
+    "employee_id": 71,
+    "employee_name": "Sarah Zullo",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 4013.856,
+    "contract_number": null
+  },
+  {
+    "employee_id": 71,
+    "employee_name": "Sarah Zullo",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 4013.856,
+    "contract_number": null
+  },
+  {
+    "employee_id": 71,
+    "employee_name": "Sarah Zullo",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 4013.856,
+    "contract_number": null
+  },
+  {
+    "employee_id": 71,
+    "employee_name": "Sarah Zullo",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 4013.856,
+    "contract_number": null
+  },
+  {
+    "employee_id": 72,
+    "employee_name": "Shakil Tabassum",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 3688.7920000000004,
+    "contract_number": null
+  },
+  {
+    "employee_id": 72,
+    "employee_name": "Shakil Tabassum",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 3688.7920000000004,
+    "contract_number": null
+  },
+  {
+    "employee_id": 72,
+    "employee_name": "Shakil Tabassum",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 3688.7920000000004,
+    "contract_number": null
+  },
+  {
+    "employee_id": 72,
+    "employee_name": "Shakil Tabassum",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 3688.7920000000004,
+    "contract_number": null
+  },
+  {
+    "employee_id": 72,
+    "employee_name": "Shakil Tabassum",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 3688.7920000000004,
+    "contract_number": null
+  },
+  {
+    "employee_id": 72,
+    "employee_name": "Shakil Tabassum",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 3688.7920000000004,
+    "contract_number": null
+  },
+  {
+    "employee_id": 72,
+    "employee_name": "Shakil Tabassum",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 3688.7920000000004,
+    "contract_number": null
+  },
+  {
+    "employee_id": 72,
+    "employee_name": "Shakil Tabassum",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 3688.7920000000004,
+    "contract_number": null
+  },
+  {
+    "employee_id": 72,
+    "employee_name": "Shakil Tabassum",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 3688.7920000000004,
+    "contract_number": null
+  },
+  {
+    "employee_id": 72,
+    "employee_name": "Shakil Tabassum",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 3688.7920000000004,
+    "contract_number": null
+  },
+  {
+    "employee_id": 73,
+    "employee_name": "Slenka Flores",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 73,
+    "employee_name": "Slenka Flores",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 73,
+    "employee_name": "Slenka Flores",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 73,
+    "employee_name": "Slenka Flores",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 73,
+    "employee_name": "Slenka Flores",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 73,
+    "employee_name": "Slenka Flores",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 73,
+    "employee_name": "Slenka Flores",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 73,
+    "employee_name": "Slenka Flores",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 73,
+    "employee_name": "Slenka Flores",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 73,
+    "employee_name": "Slenka Flores",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 74,
+    "employee_name": "Spencer",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 74,
+    "employee_name": "Spencer",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 74,
+    "employee_name": "Spencer",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 74,
+    "employee_name": "Spencer",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 74,
+    "employee_name": "Spencer",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 74,
+    "employee_name": "Spencer",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 74,
+    "employee_name": "Spencer",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 74,
+    "employee_name": "Spencer",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 74,
+    "employee_name": "Spencer",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 74,
+    "employee_name": "Spencer",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2615.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 75,
+    "employee_name": "Tahera Azizi",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2240.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 75,
+    "employee_name": "Tahera Azizi",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2240.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 75,
+    "employee_name": "Tahera Azizi",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2240.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 75,
+    "employee_name": "Tahera Azizi",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2240.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 75,
+    "employee_name": "Tahera Azizi",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2240.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 75,
+    "employee_name": "Tahera Azizi",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2240.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 75,
+    "employee_name": "Tahera Azizi",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2240.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 75,
+    "employee_name": "Tahera Azizi",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2240.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 75,
+    "employee_name": "Tahera Azizi",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2240.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 75,
+    "employee_name": "Tahera Azizi",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2240.384,
+    "contract_number": null
+  },
+  {
+    "employee_id": 76,
+    "employee_name": "Taylor",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 76,
+    "employee_name": "Taylor",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 76,
+    "employee_name": "Taylor",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 76,
+    "employee_name": "Taylor",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 76,
+    "employee_name": "Taylor",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 76,
+    "employee_name": "Taylor",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 76,
+    "employee_name": "Taylor",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 76,
+    "employee_name": "Taylor",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 76,
+    "employee_name": "Taylor",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 76,
+    "employee_name": "Taylor",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 1923.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 81,
+    "employee_name": "Viktoria Sutanovska",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 81,
+    "employee_name": "Viktoria Sutanovska",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 81,
+    "employee_name": "Viktoria Sutanovska",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 81,
+    "employee_name": "Viktoria Sutanovska",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 81,
+    "employee_name": "Viktoria Sutanovska",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 81,
+    "employee_name": "Viktoria Sutanovska",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 81,
+    "employee_name": "Viktoria Sutanovska",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 81,
+    "employee_name": "Viktoria Sutanovska",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 81,
+    "employee_name": "Viktoria Sutanovska",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 81,
+    "employee_name": "Viktoria Sutanovska",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2662.504,
+    "contract_number": null
+  },
+  {
+    "employee_id": 82,
+    "employee_name": "William Wade",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 82,
+    "employee_name": "William Wade",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 82,
+    "employee_name": "William Wade",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 82,
+    "employee_name": "William Wade",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 82,
+    "employee_name": "William Wade",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 82,
+    "employee_name": "William Wade",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 82,
+    "employee_name": "William Wade",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 82,
+    "employee_name": "William Wade",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 82,
+    "employee_name": "William Wade",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 82,
+    "employee_name": "William Wade",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2048.08,
+    "contract_number": null
+  },
+  {
+    "employee_id": 83,
+    "employee_name": "Yama",
+    "pay_period_start": "2025-05-16",
+    "pay_period_end": "2025-05-30",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 83,
+    "employee_name": "Yama",
+    "pay_period_start": "2025-05-30",
+    "pay_period_end": "2025-06-13",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 83,
+    "employee_name": "Yama",
+    "pay_period_start": "2025-06-13",
+    "pay_period_end": "2025-06-27",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 83,
+    "employee_name": "Yama",
+    "pay_period_start": "2025-06-27",
+    "pay_period_end": "2025-07-11",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 83,
+    "employee_name": "Yama",
+    "pay_period_start": "2025-07-11",
+    "pay_period_end": "2025-07-25",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 83,
+    "employee_name": "Yama",
+    "pay_period_start": "2025-07-25",
+    "pay_period_end": "2025-08-08",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 83,
+    "employee_name": "Yama",
+    "pay_period_start": "2025-08-08",
+    "pay_period_end": "2025-08-22",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 83,
+    "employee_name": "Yama",
+    "pay_period_start": "2025-08-22",
+    "pay_period_end": "2025-09-05",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 83,
+    "employee_name": "Yama",
+    "pay_period_start": "2025-09-05",
+    "pay_period_end": "2025-09-19",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  },
+  {
+    "employee_id": 83,
+    "employee_name": "Yama",
+    "pay_period_start": "2025-09-19",
+    "pay_period_end": "2025-10-03",
+    "hours_worked": 2444.376,
+    "contract_number": null
+  }
+]

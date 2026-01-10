@@ -1,0 +1,1715 @@
+{
+  "va_employees_excel": [
+    {
+      "first_name": "Abeer",
+      "last_name": "Omer",
+      "full_name_raw": "Abeer Omer",
+      "special_adjustment_5_amount": 2500.0040000000004,
+      "current_salary": 50000.08,
+      "special_adjustment_xxx_percent": 5.0,
+      "special_adjustment_xxx_new_salary": 52500.084,
+      "description": "To raise minimum salary to $52,500",
+      "location": "VA"
+    },
+    {
+      "first_name": "Aemal",
+      "last_name": "Sanjeeda",
+      "full_name_raw": "Aemal Sanjeeda",
+      "salary_adjustment_3_amount": 1649.9995199999998,
+      "current_salary": 54999.984,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 56649.983519999994,
+      "location": "VA"
+    },
+    {
+      "first_name": "Ahmed",
+      "last_name": "Seyar Auobi",
+      "full_name_raw": "Ahmed Seyar Auobi",
+      "special_adjustment_5_amount": 2500.0040000000004,
+      "current_salary": 50000.08,
+      "special_adjustment_xxx_percent": 5.0,
+      "special_adjustment_xxx_new_salary": 52500.084,
+      "description": "To raise minimum salary to $52,500",
+      "location": "VA"
+    },
+    {
+      "first_name": "Ajmal",
+      "last_name": "Amiri",
+      "full_name_raw": "Ajmal Amiri",
+      "salary_adjustment_3_amount": 1597.5024,
+      "current_salary": 53250.08,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 54847.5824,
+      "location": "VA"
+    },
+    {
+      "first_name": "Akilu",
+      "last_name": "Debalkew",
+      "full_name_raw": "Akilu Debalkew",
+      "special_adjustment_5_amount": 2500.0040000000004,
+      "current_salary": 50000.08,
+      "special_adjustment_xxx_percent": 5.0,
+      "special_adjustment_xxx_new_salary": 52500.084,
+      "description": "To raise minimum salary to $52,500",
+      "location": "VA"
+    },
+    {
+      "first_name": "Atakhleti",
+      "last_name": "Alemseged",
+      "full_name_raw": "Atakhleti Alemseged",
+      "salary_adjustment_3_amount": 2040.8793600000001,
+      "current_salary": 68029.312,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 70070.19136000001,
+      "location": "VA"
+    },
+    {
+      "first_name": "Barbara",
+      "last_name": "Callen",
+      "full_name_raw": "Barbara Callen",
+      "salary_adjustment_3_amount": 1950.0,
+      "current_salary": 65000.0,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 66950.0,
+      "location": "VA"
+    },
+    {
+      "first_name": "Bob",
+      "last_name": "Elston",
+      "full_name_raw": "Bob Elston",
+      "salary_adjustment_3_amount": 1950.0,
+      "current_salary": 65000.0,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 66950.0,
+      "location": "VA"
+    },
+    {
+      "first_name": "Brishna",
+      "last_name": "Katawazai",
+      "full_name_raw": "Brishna Katawazai",
+      "special_adjustment_5_amount": 2500.0040000000004,
+      "current_salary": 50000.08,
+      "special_adjustment_xxx_percent": 5.0,
+      "special_adjustment_xxx_new_salary": 52500.084,
+      "description": "To raise minimum salary to $52,500",
+      "location": "VA"
+    },
+    {
+      "first_name": "Earnest",
+      "last_name": "Overton",
+      "full_name_raw": "Earnest Overton",
+      "special_adjustment_5_amount": 2500.0040000000004,
+      "current_salary": 50000.08,
+      "special_adjustment_xxx_percent": 5.0,
+      "special_adjustment_xxx_new_salary": 52500.084,
+      "description": "To raise minimum salary to $52,500",
+      "location": "VA"
+    },
+    {
+      "first_name": "Eftihia",
+      "last_name": "Ionnidou",
+      "full_name_raw": "Eftihia Ionnidou",
+      "salary_adjustment_3_amount": 2012.8430399999997,
+      "current_salary": 67094.768,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 69107.61103999999,
+      "location": "VA"
+    },
+    {
+      "first_name": "Emebet",
+      "last_name": "Ashagre",
+      "full_name_raw": "Emebet Ashagre",
+      "salary_adjustment_3_amount": 2100.0033599999997,
+      "current_salary": 70000.112,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 72100.11536,
+      "location": "VA"
+    },
+    {
+      "first_name": "Esra",
+      "last_name": "Bayrakthar",
+      "full_name_raw": "Esra Bayrakthar",
+      "salary_adjustment_3_amount": 2555.79792,
+      "current_salary": 85193.264,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 87749.06192,
+      "location": "VA"
+    },
+    {
+      "first_name": "Faye",
+      "last_name": "Biggs",
+      "full_name_raw": "Faye Biggs",
+      "salary_adjustment_3_amount": 1883.28816,
+      "current_salary": 62776.272000000004,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 64659.56016000001,
+      "location": "VA"
+    },
+    {
+      "first_name": "Ferdawok",
+      "last_name": "Woyesa",
+      "full_name_raw": "Ferdawok Woyesa",
+      "salary_adjustment_3_amount": 1773.22704,
+      "current_salary": 59107.568,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 60880.79504,
+      "location": "VA"
+    },
+    {
+      "first_name": "Firdus",
+      "last_name": "Yusuf",
+      "full_name_raw": "Firdus Yusuf (P/T)",
+      "salary_adjustment_3_amount": 1048.32,
+      "current_salary": 34944.0,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 35992.32,
+      "description": "Part-time with 56 hours week at $24/hr",
+      "location": "VA"
+    },
+    {
+      "first_name": "Florance",
+      "last_name": "Ahmadi",
+      "full_name_raw": "Florance Ahmadi",
+      "salary_adjustment_3_amount": 1733.29104,
+      "current_salary": 57776.368,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 59509.65904,
+      "location": "VA"
+    },
+    {
+      "first_name": "Freshta",
+      "last_name": "Atmar",
+      "full_name_raw": "Freshta Atmar",
+      "special_adjustment_5_amount": 2500.0040000000004,
+      "current_salary": 50000.08,
+      "special_adjustment_xxx_percent": 5.0,
+      "special_adjustment_xxx_new_salary": 52500.084,
+      "description": "To raise minimum salary to $52,500",
+      "location": "VA"
+    },
+    {
+      "first_name": "Hamdard",
+      "last_name": "Hashmatullah",
+      "full_name_raw": "Hamdard Hashmatullah",
+      "salary_adjustment_3_amount": 1950.0,
+      "current_salary": 65000.0,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 66950.0,
+      "location": "VA"
+    },
+    {
+      "first_name": "Helen",
+      "last_name": "Gebru",
+      "full_name_raw": "Helen Gebru",
+      "salary_adjustment_3_amount": 2249.999856,
+      "current_salary": 74999.9952,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 77249.995056,
+      "location": "VA"
+    },
+    {
+      "first_name": "Iryna",
+      "last_name": "Gaiduk",
+      "full_name_raw": "Iryna Gaiduk",
+      "salary_adjustment_3_amount": 1906.6132799999998,
+      "current_salary": 63553.776,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 65460.389279999996,
+      "location": "VA"
+    },
+    {
+      "first_name": "Jamal",
+      "last_name": "Noori",
+      "full_name_raw": "Jamal Noori",
+      "salary_adjustment_3_amount": 1757.2464,
+      "current_salary": 58574.880000000005,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 60332.12640000001,
+      "location": "VA"
+    },
+    {
+      "first_name": "Jean",
+      "last_name": "Cyprien",
+      "full_name_raw": "Jean Cyprien",
+      "salary_adjustment_3_amount": 1733.2848000000001,
+      "current_salary": 57776.16,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 59509.444800000005,
+      "location": "VA"
+    },
+    {
+      "first_name": "Jehanzeb",
+      "last_name": "Louis",
+      "full_name_raw": "Jehanzeb Louis",
+      "salary_adjustment_3_amount": 2399.9975999999997,
+      "current_salary": 79999.92,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 82399.9176,
+      "location": "VA"
+    },
+    {
+      "first_name": "Kamela",
+      "last_name": "Azizi",
+      "full_name_raw": "Kamela Azizi",
+      "salary_adjustment_3_amount": 1757.2464,
+      "current_salary": 58574.880000000005,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 60332.12640000001,
+      "location": "VA"
+    },
+    {
+      "first_name": "Konjit",
+      "last_name": "Edward",
+      "full_name_raw": "Konjit Edward",
+      "salary_adjustment_3_amount": 1950.5491200000001,
+      "current_salary": 65018.304000000004,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 66968.85312,
+      "location": "VA"
+    },
+    {
+      "first_name": "Laryssa",
+      "last_name": "Romenko",
+      "full_name_raw": "Laryssa Romenko",
+      "salary_adjustment_3_amount": 1733.29104,
+      "current_salary": 57776.368,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 59509.65904,
+      "location": "VA"
+    },
+    {
+      "first_name": "Manizha",
+      "last_name": "Nuzhat",
+      "full_name_raw": "Manizha Nuzhat",
+      "salary_adjustment_3_amount": 2039.9995200000003,
+      "current_salary": 67999.98400000001,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 70039.98352000001,
+      "location": "VA"
+    },
+    {
+      "first_name": "Mariela",
+      "last_name": "Peneranda",
+      "full_name_raw": "Mariela Peneranda",
+      "special_adjustment_5_amount": 2500.0040000000004,
+      "current_salary": 50000.08,
+      "special_adjustment_xxx_percent": 5.0,
+      "special_adjustment_xxx_new_salary": 52500.084,
+      "description": "To raise minimum salary to $52,500",
+      "location": "VA"
+    },
+    {
+      "first_name": "Mohammad",
+      "last_name": "Akbar Akbar",
+      "full_name_raw": "Mohammad Akbar Akbar",
+      "special_adjustment_5_amount": 2500.0040000000004,
+      "current_salary": 50000.08,
+      "special_adjustment_xxx_percent": 5.0,
+      "special_adjustment_xxx_new_salary": 52500.084,
+      "description": "To raise minimum salary to $52,500",
+      "location": "VA"
+    },
+    {
+      "first_name": "Mohammad",
+      "last_name": "Baig",
+      "full_name_raw": "Mohammad Baig",
+      "salary_adjustment_3_amount": 1950.0,
+      "current_salary": 65000.0,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 66950.0,
+      "location": "VA"
+    },
+    {
+      "first_name": "Morgan",
+      "last_name": "Swindall",
+      "full_name_raw": "Morgan Swindall",
+      "salary_adjustment_3_amount": 1649.9995199999998,
+      "current_salary": 54999.984,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 56649.983519999994,
+      "location": "VA"
+    },
+    {
+      "first_name": "Najia",
+      "last_name": "Hashimzada",
+      "full_name_raw": "Najia Hashimzada",
+      "salary_adjustment_3_amount": 1917.0028799999998,
+      "current_salary": 63900.096,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 65817.09887999999,
+      "location": "VA"
+    },
+    {
+      "first_name": "Parwana",
+      "last_name": "Noori",
+      "full_name_raw": "Parwana Noori",
+      "special_adjustment_5_amount": 2500.0040000000004,
+      "current_salary": 50000.08,
+      "special_adjustment_xxx_percent": 5.0,
+      "special_adjustment_xxx_new_salary": 52500.084,
+      "description": "To raise minimum salary to $52,500",
+      "location": "VA"
+    },
+    {
+      "first_name": "Ramaswami",
+      "last_name": "Swaminathan Abirami",
+      "full_name_raw": "Ramaswami Swaminathan Abirami",
+      "salary_adjustment_3_amount": 1597.5024,
+      "current_salary": 53250.08,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 54847.5824,
+      "location": "VA"
+    },
+    {
+      "first_name": "Sarah",
+      "last_name": "Zullo",
+      "full_name_raw": "Sarah Zullo",
+      "salary_adjustment_3_amount": 3130.8076800000003,
+      "current_salary": 104360.25600000001,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 107491.06368,
+      "location": "VA"
+    },
+    {
+      "first_name": "Shakil",
+      "last_name": "Tabassum",
+      "full_name_raw": "Shakil Tabassum",
+      "salary_adjustment_3_amount": 2877.25776,
+      "current_salary": 95908.592,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 98785.84976,
+      "location": "VA"
+    },
+    {
+      "first_name": "Tahera",
+      "last_name": "Azizi",
+      "full_name_raw": "Tahera Azizi",
+      "salary_adjustment_3_amount": 1747.4995199999998,
+      "current_salary": 58249.984,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 59997.483519999994,
+      "location": "VA"
+    },
+    {
+      "first_name": "Taylor",
+      "last_name": "Woody",
+      "full_name_raw": "Taylor Woody",
+      "special_adjustment_5_amount": 2500.0040000000004,
+      "current_salary": 50000.08,
+      "special_adjustment_xxx_percent": 5.0,
+      "special_adjustment_xxx_new_salary": 52500.084,
+      "description": "To raise minimum salary to $52,500",
+      "location": "VA"
+    },
+    {
+      "first_name": "Viktoria",
+      "last_name": "Sutanovska",
+      "full_name_raw": "Viktoria Sutanovska",
+      "salary_adjustment_3_amount": 2076.7531200000003,
+      "current_salary": 69225.104,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 71301.85712,
+      "location": "VA"
+    },
+    {
+      "first_name": "Yama",
+      "last_name": "Ahmadi",
+      "full_name_raw": "Yama Ahmadi",
+      "salary_adjustment_3_amount": 1906.6132799999998,
+      "current_salary": 63553.776,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 65460.389279999996,
+      "location": "VA"
+    },
+    {
+      "first_name": "Ziai",
+      "last_name": "Shafiullah",
+      "full_name_raw": "Ziai Shafiullah",
+      "salary_adjustment_3_amount": 1950.0,
+      "current_salary": 65000.0,
+      "special_adjustment_xxx_percent": 3.0,
+      "special_adjustment_xxx_new_salary": 66950.0,
+      "location": "VA"
+    }
+  ],
+  "va_employees_db": [
+    {
+      "id": "83f42019-3025-4148-b18b-a43e6d680570",
+      "first_name": "Aemal",
+      "last_name": "Sanjeeda",
+      "annual_salary": 56649.98,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "9c423c58-7918-4890-9431-511d42e37d28",
+      "first_name": "Ahmed ",
+      "last_name": "Seyar Auobi",
+      "annual_salary": 52500.08,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "14b3a622-5f4a-4342-ae53-6e2b1ae9b162",
+      "first_name": "Ajmal ",
+      "last_name": "Amiri",
+      "annual_salary": 54847.58,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "16a09b37-b866-48c8-b994-606fac1c0b24",
+      "first_name": "Akilu",
+      "last_name": "Debalkew",
+      "annual_salary": 52500.08,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "64c86f84-008e-4df5-8b9a-313436500eb9",
+      "first_name": "Atakhelti",
+      "last_name": "Alemseged",
+      "annual_salary": 70070.19,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "cdc63f29-013d-41f1-a17b-122ac5077686",
+      "first_name": "Brishna",
+      "last_name": "Katawazai",
+      "annual_salary": 52500.08,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "37f0fea5-5c39-4165-bc05-e77a4ec089e7",
+      "first_name": "Eftihia",
+      "last_name": "Ionnidou",
+      "annual_salary": 69107.61,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "bba16925-1077-45c5-b914-2f678755d66a",
+      "first_name": "Abeer",
+      "last_name": "Omer",
+      "annual_salary": 52500.08,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "dca6df4c-ebef-4f92-a08a-3590a9ac0be5",
+      "first_name": "Esra",
+      "last_name": "Bayrakthar",
+      "annual_salary": 87749.06,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "564e2110-2274-4423-9ef6-e99df3b23486",
+      "first_name": "Faye",
+      "last_name": "Biggs",
+      "annual_salary": 64659.56,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "081a21a5-3121-4af3-b495-b8ebc4553b8d",
+      "first_name": "Ferdawok ",
+      "last_name": "Woyesa",
+      "annual_salary": 60880.8,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "4fc32681-e10a-4204-aef0-3d0cada1e20c",
+      "first_name": "Firdus",
+      "last_name": "Yousuf (P/T)",
+      "annual_salary": 35992.32,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "aee15278-ced0-44ac-9bd5-726a303dacef",
+      "first_name": "Florance",
+      "last_name": "Ahmadi",
+      "annual_salary": 59509.66,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "6047994d-8bb4-4f50-976c-eab2e93e6ff4",
+      "first_name": "Freshta",
+      "last_name": "Atmar",
+      "annual_salary": 52500.08,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "b4c8ca82-590f-4748-9fb4-66d38f10952b",
+      "first_name": "Hamdard",
+      "last_name": "Hashmatullah",
+      "annual_salary": 66950.0,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "fc5760de-6d40-4220-b591-4c14ef9afcdc",
+      "first_name": "Iryna",
+      "last_name": "Gaiduk",
+      "annual_salary": 65460.39,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "9d0a9c6d-a436-4a46-a3b4-5b8410d22473",
+      "first_name": "Jamal",
+      "last_name": "Noori",
+      "annual_salary": 60332.13,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "c03dde8b-ab4b-4915-897e-d73194e9be2e",
+      "first_name": "Jean",
+      "last_name": "Cyprien",
+      "annual_salary": 59509.44,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "7a0ce1ed-aa06-4a0c-82eb-36e5b24ca285",
+      "first_name": "Jahanzeb",
+      "last_name": "Louis",
+      "annual_salary": 82399.92,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "ffcddad1-feac-43bd-abb7-33b7944651ec",
+      "first_name": "Kamala",
+      "last_name": "Azizi",
+      "annual_salary": 60332.13,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "9133c447-b93a-472f-8448-784f46554bae",
+      "first_name": "Konjit",
+      "last_name": "Edward",
+      "annual_salary": 66968.85,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "547ffdcb-eadc-47d1-8314-2e3e2fb7f736",
+      "first_name": "Laryssa",
+      "last_name": "Romenko",
+      "annual_salary": 59509.66,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "4af78207-41ad-4848-a75a-5e6e16a2c48f",
+      "first_name": "Mariela",
+      "last_name": "Penerenda",
+      "annual_salary": 52500.08,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "9933bb39-3ad5-4987-9e12-cceaf96d1b47",
+      "first_name": "Mohammad ",
+      "last_name": "Akbar Akbar",
+      "annual_salary": 52500.08,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "582f9768-03c9-408d-bdd9-74100d472d29",
+      "first_name": "Mohammad ",
+      "last_name": "Baig",
+      "annual_salary": 66950.0,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "62e81861-ae9c-448e-93c9-9a989106505a",
+      "first_name": "Morgan",
+      "last_name": "Swindall",
+      "annual_salary": 56649.98,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "7cbc4d18-e8bc-4dbf-a236-9b7ff5d011f0",
+      "first_name": "Parwana",
+      "last_name": "Noori",
+      "annual_salary": 52500.08,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "70a7b18d-54d7-46a7-9d0e-e868f4bfb36a",
+      "first_name": "Ramaswami ",
+      "last_name": "Swaminathan Abirami",
+      "annual_salary": 54847.58,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "43a52fb9-68ac-476e-8cbd-b94b6543ea15",
+      "first_name": "Tahera",
+      "last_name": "Azizi",
+      "annual_salary": 59997.48,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "3e083a82-a7f5-4482-95e9-f91042e59521",
+      "first_name": "Taylor",
+      "last_name": "Woody",
+      "annual_salary": 52500.08,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "f77cc86f-df38-49fe-b8b7-1c89146a12e6",
+      "first_name": "Viktoria",
+      "last_name": "Sutanovska",
+      "annual_salary": 71301.86,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "256c0c75-9ac2-40da-8299-b6b4050a9c59",
+      "first_name": "Ziai",
+      "last_name": "Shafiuallah",
+      "annual_salary": 66950.0,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "1f712fc4-5020-46db-b837-1f734bbe4f95",
+      "first_name": "Najia",
+      "last_name": "Hashimzada",
+      "annual_salary": 65817.1,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "d6732612-673f-49a3-98f9-661cec3dcf7f",
+      "first_name": "Yama",
+      "last_name": "Ahmadi",
+      "annual_salary": 65460.39,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    },
+    {
+      "id": "1abe4738-93d2-45a8-9940-226be77c6d85",
+      "first_name": "Earnest",
+      "last_name": "Overton",
+      "annual_salary": 52500.08,
+      "location": {
+        "code": "VA",
+        "name": "Virginia"
+      },
+      "location_code": "va"
+    }
+  ],
+  "comparison": {
+    "only_in_excel": [
+      {
+        "first_name": "Firdus",
+        "last_name": "Yusuf",
+        "full_name_raw": "Firdus Yusuf (P/T)",
+        "salary_adjustment_3_amount": 1048.32,
+        "current_salary": 34944.0,
+        "special_adjustment_xxx_percent": 3.0,
+        "special_adjustment_xxx_new_salary": 35992.32,
+        "description": "Part-time with 56 hours week at $24/hr",
+        "location": "VA"
+      },
+      {
+        "first_name": "Shakil",
+        "last_name": "Tabassum",
+        "full_name_raw": "Shakil Tabassum",
+        "salary_adjustment_3_amount": 2877.25776,
+        "current_salary": 95908.592,
+        "special_adjustment_xxx_percent": 3.0,
+        "special_adjustment_xxx_new_salary": 98785.84976,
+        "location": "VA"
+      },
+      {
+        "first_name": "Mohammad",
+        "last_name": "Baig",
+        "full_name_raw": "Mohammad Baig",
+        "salary_adjustment_3_amount": 1950.0,
+        "current_salary": 65000.0,
+        "special_adjustment_xxx_percent": 3.0,
+        "special_adjustment_xxx_new_salary": 66950.0,
+        "location": "VA"
+      },
+      {
+        "first_name": "Sarah",
+        "last_name": "Zullo",
+        "full_name_raw": "Sarah Zullo",
+        "salary_adjustment_3_amount": 3130.8076800000003,
+        "current_salary": 104360.25600000001,
+        "special_adjustment_xxx_percent": 3.0,
+        "special_adjustment_xxx_new_salary": 107491.06368,
+        "location": "VA"
+      },
+      {
+        "first_name": "Bob",
+        "last_name": "Elston",
+        "full_name_raw": "Bob Elston",
+        "salary_adjustment_3_amount": 1950.0,
+        "current_salary": 65000.0,
+        "special_adjustment_xxx_percent": 3.0,
+        "special_adjustment_xxx_new_salary": 66950.0,
+        "location": "VA"
+      },
+      {
+        "first_name": "Mohammad",
+        "last_name": "Akbar Akbar",
+        "full_name_raw": "Mohammad Akbar Akbar",
+        "special_adjustment_5_amount": 2500.0040000000004,
+        "current_salary": 50000.08,
+        "special_adjustment_xxx_percent": 5.0,
+        "special_adjustment_xxx_new_salary": 52500.084,
+        "description": "To raise minimum salary to $52,500",
+        "location": "VA"
+      },
+      {
+        "first_name": "Emebet",
+        "last_name": "Ashagre",
+        "full_name_raw": "Emebet Ashagre",
+        "salary_adjustment_3_amount": 2100.0033599999997,
+        "current_salary": 70000.112,
+        "special_adjustment_xxx_percent": 3.0,
+        "special_adjustment_xxx_new_salary": 72100.11536,
+        "location": "VA"
+      },
+      {
+        "first_name": "Ferdawok",
+        "last_name": "Woyesa",
+        "full_name_raw": "Ferdawok Woyesa",
+        "salary_adjustment_3_amount": 1773.22704,
+        "current_salary": 59107.568,
+        "special_adjustment_xxx_percent": 3.0,
+        "special_adjustment_xxx_new_salary": 60880.79504,
+        "location": "VA"
+      },
+      {
+        "first_name": "Ziai",
+        "last_name": "Shafiullah",
+        "full_name_raw": "Ziai Shafiullah",
+        "salary_adjustment_3_amount": 1950.0,
+        "current_salary": 65000.0,
+        "special_adjustment_xxx_percent": 3.0,
+        "special_adjustment_xxx_new_salary": 66950.0,
+        "location": "VA"
+      },
+      {
+        "first_name": "Ajmal",
+        "last_name": "Amiri",
+        "full_name_raw": "Ajmal Amiri",
+        "salary_adjustment_3_amount": 1597.5024,
+        "current_salary": 53250.08,
+        "special_adjustment_xxx_percent": 3.0,
+        "special_adjustment_xxx_new_salary": 54847.5824,
+        "location": "VA"
+      },
+      {
+        "first_name": "Barbara",
+        "last_name": "Callen",
+        "full_name_raw": "Barbara Callen",
+        "salary_adjustment_3_amount": 1950.0,
+        "current_salary": 65000.0,
+        "special_adjustment_xxx_percent": 3.0,
+        "special_adjustment_xxx_new_salary": 66950.0,
+        "location": "VA"
+      },
+      {
+        "first_name": "Atakhleti",
+        "last_name": "Alemseged",
+        "full_name_raw": "Atakhleti Alemseged",
+        "salary_adjustment_3_amount": 2040.8793600000001,
+        "current_salary": 68029.312,
+        "special_adjustment_xxx_percent": 3.0,
+        "special_adjustment_xxx_new_salary": 70070.19136000001,
+        "location": "VA"
+      },
+      {
+        "first_name": "Kamela",
+        "last_name": "Azizi",
+        "full_name_raw": "Kamela Azizi",
+        "salary_adjustment_3_amount": 1757.2464,
+        "current_salary": 58574.880000000005,
+        "special_adjustment_xxx_percent": 3.0,
+        "special_adjustment_xxx_new_salary": 60332.12640000001,
+        "location": "VA"
+      },
+      {
+        "first_name": "Mariela",
+        "last_name": "Peneranda",
+        "full_name_raw": "Mariela Peneranda",
+        "special_adjustment_5_amount": 2500.0040000000004,
+        "current_salary": 50000.08,
+        "special_adjustment_xxx_percent": 5.0,
+        "special_adjustment_xxx_new_salary": 52500.084,
+        "description": "To raise minimum salary to $52,500",
+        "location": "VA"
+      },
+      {
+        "first_name": "Helen",
+        "last_name": "Gebru",
+        "full_name_raw": "Helen Gebru",
+        "salary_adjustment_3_amount": 2249.999856,
+        "current_salary": 74999.9952,
+        "special_adjustment_xxx_percent": 3.0,
+        "special_adjustment_xxx_new_salary": 77249.995056,
+        "location": "VA"
+      },
+      {
+        "first_name": "Ramaswami",
+        "last_name": "Swaminathan Abirami",
+        "full_name_raw": "Ramaswami Swaminathan Abirami",
+        "salary_adjustment_3_amount": 1597.5024,
+        "current_salary": 53250.08,
+        "special_adjustment_xxx_percent": 3.0,
+        "special_adjustment_xxx_new_salary": 54847.5824,
+        "location": "VA"
+      },
+      {
+        "first_name": "Manizha",
+        "last_name": "Nuzhat",
+        "full_name_raw": "Manizha Nuzhat",
+        "salary_adjustment_3_amount": 2039.9995200000003,
+        "current_salary": 67999.98400000001,
+        "special_adjustment_xxx_percent": 3.0,
+        "special_adjustment_xxx_new_salary": 70039.98352000001,
+        "location": "VA"
+      },
+      {
+        "first_name": "Jehanzeb",
+        "last_name": "Louis",
+        "full_name_raw": "Jehanzeb Louis",
+        "salary_adjustment_3_amount": 2399.9975999999997,
+        "current_salary": 79999.92,
+        "special_adjustment_xxx_percent": 3.0,
+        "special_adjustment_xxx_new_salary": 82399.9176,
+        "location": "VA"
+      },
+      {
+        "first_name": "Ahmed",
+        "last_name": "Seyar Auobi",
+        "full_name_raw": "Ahmed Seyar Auobi",
+        "special_adjustment_5_amount": 2500.0040000000004,
+        "current_salary": 50000.08,
+        "special_adjustment_xxx_percent": 5.0,
+        "special_adjustment_xxx_new_salary": 52500.084,
+        "description": "To raise minimum salary to $52,500",
+        "location": "VA"
+      }
+    ],
+    "only_in_db": [
+      {
+        "id": "7a0ce1ed-aa06-4a0c-82eb-36e5b24ca285",
+        "first_name": "Jahanzeb",
+        "last_name": "Louis",
+        "annual_salary": 82399.92,
+        "location": {
+          "code": "VA",
+          "name": "Virginia"
+        },
+        "location_code": "va"
+      },
+      {
+        "id": "4fc32681-e10a-4204-aef0-3d0cada1e20c",
+        "first_name": "Firdus",
+        "last_name": "Yousuf (P/T)",
+        "annual_salary": 35992.32,
+        "location": {
+          "code": "VA",
+          "name": "Virginia"
+        },
+        "location_code": "va"
+      },
+      {
+        "id": "4af78207-41ad-4848-a75a-5e6e16a2c48f",
+        "first_name": "Mariela",
+        "last_name": "Penerenda",
+        "annual_salary": 52500.08,
+        "location": {
+          "code": "VA",
+          "name": "Virginia"
+        },
+        "location_code": "va"
+      },
+      {
+        "id": "9933bb39-3ad5-4987-9e12-cceaf96d1b47",
+        "first_name": "Mohammad ",
+        "last_name": "Akbar Akbar",
+        "annual_salary": 52500.08,
+        "location": {
+          "code": "VA",
+          "name": "Virginia"
+        },
+        "location_code": "va"
+      },
+      {
+        "id": "081a21a5-3121-4af3-b495-b8ebc4553b8d",
+        "first_name": "Ferdawok ",
+        "last_name": "Woyesa",
+        "annual_salary": 60880.8,
+        "location": {
+          "code": "VA",
+          "name": "Virginia"
+        },
+        "location_code": "va"
+      },
+      {
+        "id": "14b3a622-5f4a-4342-ae53-6e2b1ae9b162",
+        "first_name": "Ajmal ",
+        "last_name": "Amiri",
+        "annual_salary": 54847.58,
+        "location": {
+          "code": "VA",
+          "name": "Virginia"
+        },
+        "location_code": "va"
+      },
+      {
+        "id": "256c0c75-9ac2-40da-8299-b6b4050a9c59",
+        "first_name": "Ziai",
+        "last_name": "Shafiuallah",
+        "annual_salary": 66950.0,
+        "location": {
+          "code": "VA",
+          "name": "Virginia"
+        },
+        "location_code": "va"
+      },
+      {
+        "id": "582f9768-03c9-408d-bdd9-74100d472d29",
+        "first_name": "Mohammad ",
+        "last_name": "Baig",
+        "annual_salary": 66950.0,
+        "location": {
+          "code": "VA",
+          "name": "Virginia"
+        },
+        "location_code": "va"
+      },
+      {
+        "id": "64c86f84-008e-4df5-8b9a-313436500eb9",
+        "first_name": "Atakhelti",
+        "last_name": "Alemseged",
+        "annual_salary": 70070.19,
+        "location": {
+          "code": "VA",
+          "name": "Virginia"
+        },
+        "location_code": "va"
+      },
+      {
+        "id": "ffcddad1-feac-43bd-abb7-33b7944651ec",
+        "first_name": "Kamala",
+        "last_name": "Azizi",
+        "annual_salary": 60332.13,
+        "location": {
+          "code": "VA",
+          "name": "Virginia"
+        },
+        "location_code": "va"
+      },
+      {
+        "id": "70a7b18d-54d7-46a7-9d0e-e868f4bfb36a",
+        "first_name": "Ramaswami ",
+        "last_name": "Swaminathan Abirami",
+        "annual_salary": 54847.58,
+        "location": {
+          "code": "VA",
+          "name": "Virginia"
+        },
+        "location_code": "va"
+      },
+      {
+        "id": "9c423c58-7918-4890-9431-511d42e37d28",
+        "first_name": "Ahmed ",
+        "last_name": "Seyar Auobi",
+        "annual_salary": 52500.08,
+        "location": {
+          "code": "VA",
+          "name": "Virginia"
+        },
+        "location_code": "va"
+      }
+    ],
+    "in_both": [
+      {
+        "name": "taylor woody",
+        "excel_data": {
+          "first_name": "Taylor",
+          "last_name": "Woody",
+          "full_name_raw": "Taylor Woody",
+          "special_adjustment_5_amount": 2500.0040000000004,
+          "current_salary": 50000.08,
+          "special_adjustment_xxx_percent": 5.0,
+          "special_adjustment_xxx_new_salary": 52500.084,
+          "description": "To raise minimum salary to $52,500",
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "3e083a82-a7f5-4482-95e9-f91042e59521",
+          "first_name": "Taylor",
+          "last_name": "Woody",
+          "annual_salary": 52500.08,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "jamal noori",
+        "excel_data": {
+          "first_name": "Jamal",
+          "last_name": "Noori",
+          "full_name_raw": "Jamal Noori",
+          "salary_adjustment_3_amount": 1757.2464,
+          "current_salary": 58574.880000000005,
+          "special_adjustment_xxx_percent": 3.0,
+          "special_adjustment_xxx_new_salary": 60332.12640000001,
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "9d0a9c6d-a436-4a46-a3b4-5b8410d22473",
+          "first_name": "Jamal",
+          "last_name": "Noori",
+          "annual_salary": 60332.13,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "eftihia ionnidou",
+        "excel_data": {
+          "first_name": "Eftihia",
+          "last_name": "Ionnidou",
+          "full_name_raw": "Eftihia Ionnidou",
+          "salary_adjustment_3_amount": 2012.8430399999997,
+          "current_salary": 67094.768,
+          "special_adjustment_xxx_percent": 3.0,
+          "special_adjustment_xxx_new_salary": 69107.61103999999,
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "37f0fea5-5c39-4165-bc05-e77a4ec089e7",
+          "first_name": "Eftihia",
+          "last_name": "Ionnidou",
+          "annual_salary": 69107.61,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "iryna gaiduk",
+        "excel_data": {
+          "first_name": "Iryna",
+          "last_name": "Gaiduk",
+          "full_name_raw": "Iryna Gaiduk",
+          "salary_adjustment_3_amount": 1906.6132799999998,
+          "current_salary": 63553.776,
+          "special_adjustment_xxx_percent": 3.0,
+          "special_adjustment_xxx_new_salary": 65460.389279999996,
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "fc5760de-6d40-4220-b591-4c14ef9afcdc",
+          "first_name": "Iryna",
+          "last_name": "Gaiduk",
+          "annual_salary": 65460.39,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "brishna katawazai",
+        "excel_data": {
+          "first_name": "Brishna",
+          "last_name": "Katawazai",
+          "full_name_raw": "Brishna Katawazai",
+          "special_adjustment_5_amount": 2500.0040000000004,
+          "current_salary": 50000.08,
+          "special_adjustment_xxx_percent": 5.0,
+          "special_adjustment_xxx_new_salary": 52500.084,
+          "description": "To raise minimum salary to $52,500",
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "cdc63f29-013d-41f1-a17b-122ac5077686",
+          "first_name": "Brishna",
+          "last_name": "Katawazai",
+          "annual_salary": 52500.08,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "florance ahmadi",
+        "excel_data": {
+          "first_name": "Florance",
+          "last_name": "Ahmadi",
+          "full_name_raw": "Florance Ahmadi",
+          "salary_adjustment_3_amount": 1733.29104,
+          "current_salary": 57776.368,
+          "special_adjustment_xxx_percent": 3.0,
+          "special_adjustment_xxx_new_salary": 59509.65904,
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "aee15278-ced0-44ac-9bd5-726a303dacef",
+          "first_name": "Florance",
+          "last_name": "Ahmadi",
+          "annual_salary": 59509.66,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "konjit edward",
+        "excel_data": {
+          "first_name": "Konjit",
+          "last_name": "Edward",
+          "full_name_raw": "Konjit Edward",
+          "salary_adjustment_3_amount": 1950.5491200000001,
+          "current_salary": 65018.304000000004,
+          "special_adjustment_xxx_percent": 3.0,
+          "special_adjustment_xxx_new_salary": 66968.85312,
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "9133c447-b93a-472f-8448-784f46554bae",
+          "first_name": "Konjit",
+          "last_name": "Edward",
+          "annual_salary": 66968.85,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "laryssa romenko",
+        "excel_data": {
+          "first_name": "Laryssa",
+          "last_name": "Romenko",
+          "full_name_raw": "Laryssa Romenko",
+          "salary_adjustment_3_amount": 1733.29104,
+          "current_salary": 57776.368,
+          "special_adjustment_xxx_percent": 3.0,
+          "special_adjustment_xxx_new_salary": 59509.65904,
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "547ffdcb-eadc-47d1-8314-2e3e2fb7f736",
+          "first_name": "Laryssa",
+          "last_name": "Romenko",
+          "annual_salary": 59509.66,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "abeer omer",
+        "excel_data": {
+          "first_name": "Abeer",
+          "last_name": "Omer",
+          "full_name_raw": "Abeer Omer",
+          "special_adjustment_5_amount": 2500.0040000000004,
+          "current_salary": 50000.08,
+          "special_adjustment_xxx_percent": 5.0,
+          "special_adjustment_xxx_new_salary": 52500.084,
+          "description": "To raise minimum salary to $52,500",
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "bba16925-1077-45c5-b914-2f678755d66a",
+          "first_name": "Abeer",
+          "last_name": "Omer",
+          "annual_salary": 52500.08,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "aemal sanjeeda",
+        "excel_data": {
+          "first_name": "Aemal",
+          "last_name": "Sanjeeda",
+          "full_name_raw": "Aemal Sanjeeda",
+          "salary_adjustment_3_amount": 1649.9995199999998,
+          "current_salary": 54999.984,
+          "special_adjustment_xxx_percent": 3.0,
+          "special_adjustment_xxx_new_salary": 56649.983519999994,
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "83f42019-3025-4148-b18b-a43e6d680570",
+          "first_name": "Aemal",
+          "last_name": "Sanjeeda",
+          "annual_salary": 56649.98,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "esra bayrakthar",
+        "excel_data": {
+          "first_name": "Esra",
+          "last_name": "Bayrakthar",
+          "full_name_raw": "Esra Bayrakthar",
+          "salary_adjustment_3_amount": 2555.79792,
+          "current_salary": 85193.264,
+          "special_adjustment_xxx_percent": 3.0,
+          "special_adjustment_xxx_new_salary": 87749.06192,
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "dca6df4c-ebef-4f92-a08a-3590a9ac0be5",
+          "first_name": "Esra",
+          "last_name": "Bayrakthar",
+          "annual_salary": 87749.06,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "freshta atmar",
+        "excel_data": {
+          "first_name": "Freshta",
+          "last_name": "Atmar",
+          "full_name_raw": "Freshta Atmar",
+          "special_adjustment_5_amount": 2500.0040000000004,
+          "current_salary": 50000.08,
+          "special_adjustment_xxx_percent": 5.0,
+          "special_adjustment_xxx_new_salary": 52500.084,
+          "description": "To raise minimum salary to $52,500",
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "6047994d-8bb4-4f50-976c-eab2e93e6ff4",
+          "first_name": "Freshta",
+          "last_name": "Atmar",
+          "annual_salary": 52500.08,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "akilu debalkew",
+        "excel_data": {
+          "first_name": "Akilu",
+          "last_name": "Debalkew",
+          "full_name_raw": "Akilu Debalkew",
+          "special_adjustment_5_amount": 2500.0040000000004,
+          "current_salary": 50000.08,
+          "special_adjustment_xxx_percent": 5.0,
+          "special_adjustment_xxx_new_salary": 52500.084,
+          "description": "To raise minimum salary to $52,500",
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "16a09b37-b866-48c8-b994-606fac1c0b24",
+          "first_name": "Akilu",
+          "last_name": "Debalkew",
+          "annual_salary": 52500.08,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "yama ahmadi",
+        "excel_data": {
+          "first_name": "Yama",
+          "last_name": "Ahmadi",
+          "full_name_raw": "Yama Ahmadi",
+          "salary_adjustment_3_amount": 1906.6132799999998,
+          "current_salary": 63553.776,
+          "special_adjustment_xxx_percent": 3.0,
+          "special_adjustment_xxx_new_salary": 65460.389279999996,
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "d6732612-673f-49a3-98f9-661cec3dcf7f",
+          "first_name": "Yama",
+          "last_name": "Ahmadi",
+          "annual_salary": 65460.39,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "morgan swindall",
+        "excel_data": {
+          "first_name": "Morgan",
+          "last_name": "Swindall",
+          "full_name_raw": "Morgan Swindall",
+          "salary_adjustment_3_amount": 1649.9995199999998,
+          "current_salary": 54999.984,
+          "special_adjustment_xxx_percent": 3.0,
+          "special_adjustment_xxx_new_salary": 56649.983519999994,
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "62e81861-ae9c-448e-93c9-9a989106505a",
+          "first_name": "Morgan",
+          "last_name": "Swindall",
+          "annual_salary": 56649.98,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "earnest overton",
+        "excel_data": {
+          "first_name": "Earnest",
+          "last_name": "Overton",
+          "full_name_raw": "Earnest Overton",
+          "special_adjustment_5_amount": 2500.0040000000004,
+          "current_salary": 50000.08,
+          "special_adjustment_xxx_percent": 5.0,
+          "special_adjustment_xxx_new_salary": 52500.084,
+          "description": "To raise minimum salary to $52,500",
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "1abe4738-93d2-45a8-9940-226be77c6d85",
+          "first_name": "Earnest",
+          "last_name": "Overton",
+          "annual_salary": 52500.08,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "parwana noori",
+        "excel_data": {
+          "first_name": "Parwana",
+          "last_name": "Noori",
+          "full_name_raw": "Parwana Noori",
+          "special_adjustment_5_amount": 2500.0040000000004,
+          "current_salary": 50000.08,
+          "special_adjustment_xxx_percent": 5.0,
+          "special_adjustment_xxx_new_salary": 52500.084,
+          "description": "To raise minimum salary to $52,500",
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "7cbc4d18-e8bc-4dbf-a236-9b7ff5d011f0",
+          "first_name": "Parwana",
+          "last_name": "Noori",
+          "annual_salary": 52500.08,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "hamdard hashmatullah",
+        "excel_data": {
+          "first_name": "Hamdard",
+          "last_name": "Hashmatullah",
+          "full_name_raw": "Hamdard Hashmatullah",
+          "salary_adjustment_3_amount": 1950.0,
+          "current_salary": 65000.0,
+          "special_adjustment_xxx_percent": 3.0,
+          "special_adjustment_xxx_new_salary": 66950.0,
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "b4c8ca82-590f-4748-9fb4-66d38f10952b",
+          "first_name": "Hamdard",
+          "last_name": "Hashmatullah",
+          "annual_salary": 66950.0,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "tahera azizi",
+        "excel_data": {
+          "first_name": "Tahera",
+          "last_name": "Azizi",
+          "full_name_raw": "Tahera Azizi",
+          "salary_adjustment_3_amount": 1747.4995199999998,
+          "current_salary": 58249.984,
+          "special_adjustment_xxx_percent": 3.0,
+          "special_adjustment_xxx_new_salary": 59997.483519999994,
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "43a52fb9-68ac-476e-8cbd-b94b6543ea15",
+          "first_name": "Tahera",
+          "last_name": "Azizi",
+          "annual_salary": 59997.48,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "faye biggs",
+        "excel_data": {
+          "first_name": "Faye",
+          "last_name": "Biggs",
+          "full_name_raw": "Faye Biggs",
+          "salary_adjustment_3_amount": 1883.28816,
+          "current_salary": 62776.272000000004,
+          "special_adjustment_xxx_percent": 3.0,
+          "special_adjustment_xxx_new_salary": 64659.56016000001,
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "564e2110-2274-4423-9ef6-e99df3b23486",
+          "first_name": "Faye",
+          "last_name": "Biggs",
+          "annual_salary": 64659.56,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "viktoria sutanovska",
+        "excel_data": {
+          "first_name": "Viktoria",
+          "last_name": "Sutanovska",
+          "full_name_raw": "Viktoria Sutanovska",
+          "salary_adjustment_3_amount": 2076.7531200000003,
+          "current_salary": 69225.104,
+          "special_adjustment_xxx_percent": 3.0,
+          "special_adjustment_xxx_new_salary": 71301.85712,
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "f77cc86f-df38-49fe-b8b7-1c89146a12e6",
+          "first_name": "Viktoria",
+          "last_name": "Sutanovska",
+          "annual_salary": 71301.86,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "jean cyprien",
+        "excel_data": {
+          "first_name": "Jean",
+          "last_name": "Cyprien",
+          "full_name_raw": "Jean Cyprien",
+          "salary_adjustment_3_amount": 1733.2848000000001,
+          "current_salary": 57776.16,
+          "special_adjustment_xxx_percent": 3.0,
+          "special_adjustment_xxx_new_salary": 59509.444800000005,
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "c03dde8b-ab4b-4915-897e-d73194e9be2e",
+          "first_name": "Jean",
+          "last_name": "Cyprien",
+          "annual_salary": 59509.44,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      },
+      {
+        "name": "najia hashimzada",
+        "excel_data": {
+          "first_name": "Najia",
+          "last_name": "Hashimzada",
+          "full_name_raw": "Najia Hashimzada",
+          "salary_adjustment_3_amount": 1917.0028799999998,
+          "current_salary": 63900.096,
+          "special_adjustment_xxx_percent": 3.0,
+          "special_adjustment_xxx_new_salary": 65817.09887999999,
+          "location": "VA"
+        },
+        "db_data": {
+          "id": "1f712fc4-5020-46db-b837-1f734bbe4f95",
+          "first_name": "Najia",
+          "last_name": "Hashimzada",
+          "annual_salary": 65817.1,
+          "location": {
+            "code": "VA",
+            "name": "Virginia"
+          },
+          "location_code": "va"
+        }
+      }
+    ]
+  }
+}
