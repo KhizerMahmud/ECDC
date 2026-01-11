@@ -82,6 +82,13 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
   const [monthlyExpenseAllocations, setMonthlyExpenseAllocations] = useState<{ [expenseId: string]: { [month: string]: number } }>({});
   const [monthlyFringeAllocations, setMonthlyFringeAllocations] = useState<{ [budgetId: string]: { [month: string]: number } }>({});
   const [monthlyIndirectCostAllocations, setMonthlyIndirectCostAllocations] = useState<{ [budgetId: string]: { [month: string]: number } }>({});
+  const [expenseModal, setExpenseModal] = useState<{ isOpen: boolean; expenseId: string | null; budgetId: string | null; action: 'edit' | 'delete' | null; expense: any | null }>({
+    isOpen: false,
+    expenseId: null,
+    budgetId: null,
+    action: null,
+    expense: null,
+  });
   const [rowColors] = useState<{
     totalEmployeeAllocations: string;
     totalPersonnelCost: string;
@@ -1693,7 +1700,7 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                         )}
                                                                         {showAddExpenseForm[budget.id] && !readOnly && (
                                                                           <tr>
-                                                                            <td colSpan={4 + fiscalMonths.length} className="px-4 py-3 bg-gray-50">
+                                                                            <td colSpan={4 + fiscalMonths.length + (readOnly ? 0 : 1)} className="px-4 py-3 bg-gray-50">
                                                                               <div className="space-y-2">
                                                                                 <div className="grid grid-cols-2 gap-2">
                                                                                   <input
@@ -1789,7 +1796,56 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                                     </datalist>
                                                                                   </>
                                                                                 ) : (
-                                                                                  <div className="truncate text-xs" title={exp.category}>{exp.category}</div>
+                                                                                  <div className="flex items-center gap-2">
+                                                                                    <span className="truncate text-xs flex-1" title={exp.category}>{exp.category}</span>
+                                                                                    {!readOnly && (
+                                                                                      <div className="flex gap-1 items-center flex-shrink-0">
+                                                                                        <button
+                                                                                          type="button"
+                                                                                          onClick={(e) => {
+                                                                                            e.stopPropagation();
+                                                                                            e.preventDefault();
+                                                                                            setNewExpenseCategory(prev => ({ ...prev, [budget.id]: exp.category }));
+                                                                                            setNewExpenseAmount(prev => ({ ...prev, [budget.id]: exp.amount || 0 }));
+                                                                                            setExpenseModal({
+                                                                                              isOpen: true,
+                                                                                              expenseId: exp.id,
+                                                                                              budgetId: budget.id,
+                                                                                              action: 'edit',
+                                                                                              expense: exp,
+                                                                                            });
+                                                                                          }}
+                                                                                          className="text-blue-600 hover:text-blue-900 p-0.5"
+                                                                                          title="Edit"
+                                                                                        >
+                                                                                          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+                                                                                            <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5L13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175l-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
+                                                                                          </svg>
+                                                                                        </button>
+                                                                                        <button
+                                                                                          type="button"
+                                                                                          onClick={(e) => {
+                                                                                            e.stopPropagation();
+                                                                                            e.preventDefault();
+                                                                                            setExpenseModal({
+                                                                                              isOpen: true,
+                                                                                              expenseId: exp.id,
+                                                                                              budgetId: budget.id,
+                                                                                              action: 'delete',
+                                                                                              expense: exp,
+                                                                                            });
+                                                                                          }}
+                                                                                          className="text-red-600 hover:text-red-900 p-0.5"
+                                                                                          title="Delete"
+                                                                                        >
+                                                                                          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+                                                                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+                                                                                            <path fillRule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4L4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+                                                                                          </svg>
+                                                                                        </button>
+                                                                                      </div>
+                                                                                    )}
+                                                                                  </div>
                                                                                 )}
                                                                               </td>
                                                                               <td className="py-2 px-2 text-right font-medium text-gray-900 sticky left-[150px] bg-yellow-100 z-10 text-xs" style={{ width: '100px', minWidth: '100px' }}>
@@ -1921,7 +1977,7 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                         })}
                                                                               {budgetExpenses.length === 0 && !showAddExpenseForm[budget.id] && (
                                                                                 <tr>
-                                                                                  <td colSpan={4 + fiscalMonths.length + (readOnly ? 0 : 1)} className="py-2 px-2 text-sm text-gray-500 text-center">
+                                                                                  <td colSpan={4 + fiscalMonths.length} className="py-2 px-2 text-sm text-gray-500 text-center">
                                                                                     No budget allocations for this budget.
                                                                                   </td>
                                                                                 </tr>
@@ -2235,7 +2291,50 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                                             </select>
                                                                                           </>
                                                                                         ) : (
-                                                                                          <div className="truncate text-xs" title={dcaCategory}>{dcaCategory}</div>
+                                                                                          <div className="flex items-center gap-2">
+                                                                                            <span className="truncate text-xs flex-1" title={dcaCategory}>{dcaCategory}</span>
+                                                                                            {!readOnly && (
+                                                                                              <div className="flex gap-1 items-center flex-shrink-0">
+                                                                                                <button
+                                                                                                  type="button"
+                                                                                                  onClick={(e) => {
+                                                                                                    e.stopPropagation();
+                                                                                                    e.preventDefault();
+                                                                                                    startEditingExpense(exp.id, budget.id);
+                                                                                                    const expenseToDcaMap: { [key: string]: string } = {
+                                                                                                      'RECOGNITION CEREMONY': 'Recognition Ceremony',
+                                                                                                      'STUDENT INTEGRATION': 'Student Integration Activities',
+                                                                                                      'CLIENT TRANSPORTATION': 'Client Transportation',
+                                                                                                      'CLIENT LAPTOP': 'Client Laptop',
+                                                                                                    };
+                                                                                                    const dcaCat = expenseToDcaMap[exp.category] || exp.category;
+                                                                                                    setNewExpenseCategory(prev => ({ ...prev, [budget.id]: dcaCat }));
+                                                                                                  }}
+                                                                                                  className="text-blue-600 hover:text-blue-900 p-0.5"
+                                                                                                  title="Edit"
+                                                                                                >
+                                                                                                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+                                                                                                    <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5L13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175l-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
+                                                                                                  </svg>
+                                                                                                </button>
+                                                                                                <button
+                                                                                                  type="button"
+                                                                                                  onClick={(e) => {
+                                                                                                    e.stopPropagation();
+                                                                                                    e.preventDefault();
+                                                                                                    handleExpenseDelete(exp.id, budget.id, exp.category);
+                                                                                                  }}
+                                                                                                  className="text-red-600 hover:text-red-900 p-0.5"
+                                                                                                  title="Delete"
+                                                                                                >
+                                                                                                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+                                                                                                    <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+                                                                                                    <path fillRule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4L4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+                                                                                                  </svg>
+                                                                                                </button>
+                                                                                              </div>
+                                                                                            )}
+                                                                                          </div>
                                                                                         )}
                                                                                       </td>
                                                                                       <td className="py-2 px-2 text-right sticky left-[150px] bg-yellow-100 z-10 text-xs" style={{ width: '100px', minWidth: '100px' }}>
@@ -2371,128 +2470,93 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                                       <td className="py-2 px-2 text-right font-medium text-gray-900 text-xs" style={{ width: '90px', minWidth: '90px' }}>
                                                                                         ${formatCurrency(balance)}
                                                                                       </td>
-                                                                                      {!readOnly && (
+                                                                                      {isEditingThis && !readOnly && (
                                                                                         <td className="py-2 px-2 text-center sticky right-0 bg-white z-10 text-xs" style={{ width: '100px', minWidth: '100px' }}>
-                                                                                          {isEditingThis ? (
-                                                                                            <div className="flex gap-1 justify-center">
-                                                                                              <button
-                                                                                                type="button"
-                                                                                                onClick={async (e) => {
-                                                                                                  e.stopPropagation();
-                                                                                                  e.preventDefault();
-                                                                                                  const dcaCategoryMap: { [key: string]: string } = {
-                                                                                                    'Recognition Ceremony': 'RECOGNITION CEREMONY',
-                                                                                                    'Student Integration Activities': 'STUDENT INTEGRATION',
-                                                                                                    'Client Transportation': 'CLIENT TRANSPORTATION',
-                                                                                                    'Client Laptop': 'CLIENT LAPTOP',
-                                                                                                  };
-                                                                                                  const dcaCategory = newExpenseCategory[budget.id] || exp.category;
-                                                                                                  const expenseCategory = dcaCategoryMap[dcaCategory] || dcaCategory;
-                                                                                                  const amount = newExpenseAmount[budget.id] ?? exp.amount ?? 0;
-                                                                                                  
-                                                                                                  if (!expenseCategory || amount <= 0) {
-                                                                                                    alert('Please enter a valid category and amount');
+                                                                                          <div className="flex gap-1 justify-center">
+                                                                                            <button
+                                                                                              type="button"
+                                                                                              onClick={async (e) => {
+                                                                                                e.stopPropagation();
+                                                                                                e.preventDefault();
+                                                                                                const dcaCategoryMap: { [key: string]: string } = {
+                                                                                                  'Recognition Ceremony': 'RECOGNITION CEREMONY',
+                                                                                                  'Student Integration Activities': 'STUDENT INTEGRATION',
+                                                                                                  'Client Transportation': 'CLIENT TRANSPORTATION',
+                                                                                                  'Client Laptop': 'CLIENT LAPTOP',
+                                                                                                };
+                                                                                                const dcaCategory = newExpenseCategory[budget.id] || exp.category;
+                                                                                                const expenseCategory = dcaCategoryMap[dcaCategory] || dcaCategory;
+                                                                                                const amount = newExpenseAmount[budget.id] ?? exp.amount ?? 0;
+                                                                                                
+                                                                                                if (!expenseCategory || amount <= 0) {
+                                                                                                  alert('Please enter a valid category and amount');
+                                                                                                  return;
+                                                                                                }
+
+                                                                                                try {
+                                                                                                  const budgetObj = budgets.find(b => b.id === budget.id);
+                                                                                                  if (!budgetObj?.fiscal_year_start) {
+                                                                                                    alert('Could not find budget fiscal year');
                                                                                                     return;
                                                                                                   }
 
-                                                                                                  try {
-                                                                                                    const budgetObj = budgets.find(b => b.id === budget.id);
-                                                                                                    if (!budgetObj?.fiscal_year_start) {
-                                                                                                      alert('Could not find budget fiscal year');
-                                                                                                      return;
+                                                                                                  const body = { id: exp.id, budget_id: budget.id, category: expenseCategory, amount, expense_month: budgetObj.fiscal_year_start };
+
+                                                                                                  const res = await fetch('/api/expenses', {
+                                                                                                    method: 'PUT',
+                                                                                                    headers: { 'Content-Type': 'application/json' },
+                                                                                                    body: JSON.stringify(body),
+                                                                                                  });
+
+                                                                                                  if (res.ok) {
+                                                                                                    const updatedExpenses = await fetch('/api/expenses');
+                                                                                                    if (updatedExpenses.ok) {
+                                                                                                      const data = await updatedExpenses.json();
+                                                                                                      setExpenses(Array.isArray(data) ? data : []);
                                                                                                     }
-
-                                                                                                    const body = { id: exp.id, budget_id: budget.id, category: expenseCategory, amount, expense_month: budgetObj.fiscal_year_start };
-
-                                                                                                    const res = await fetch('/api/expenses', {
-                                                                                                      method: 'PUT',
-                                                                                                      headers: { 'Content-Type': 'application/json' },
-                                                                                                      body: JSON.stringify(body),
+                                                                                                    setEditingExpense(prev => {
+                                                                                                      const updated = { ...prev };
+                                                                                                      delete updated[budget.id];
+                                                                                                      return updated;
                                                                                                     });
-
-                                                                                                    if (res.ok) {
-                                                                                                      const updatedExpenses = await fetch('/api/expenses');
-                                                                                                      if (updatedExpenses.ok) {
-                                                                                                        const data = await updatedExpenses.json();
-                                                                                                        setExpenses(Array.isArray(data) ? data : []);
-                                                                                                      }
-                                                                                                      setEditingExpense(prev => {
-                                                                                                        const updated = { ...prev };
-                                                                                                        delete updated[budget.id];
-                                                                                                        return updated;
-                                                                                                      });
-                                                                                                      setNewExpenseCategory(prev => {
-                                                                                                        const updated = { ...prev };
-                                                                                                        delete updated[budget.id];
-                                                                                                        return updated;
-                                                                                                      });
-                                                                                                      setNewExpenseAmount(prev => {
-                                                                                                        const updated = { ...prev };
-                                                                                                        delete updated[budget.id];
-                                                                                                        return updated;
-                                                                                                      });
-                                                                                                      if (typeof window !== 'undefined') {
-                                                                                                        window.dispatchEvent(new CustomEvent('expenseUpdated'));
-                                                                                                      }
-                                                                                                    } else {
-                                                                                                      const errorData = await res.json().catch(() => ({}));
-                                                                                                      alert(`Error saving DCA entry: ${errorData.error || errorData.message || 'Unknown error'}`);
+                                                                                                    setNewExpenseCategory(prev => {
+                                                                                                      const updated = { ...prev };
+                                                                                                      delete updated[budget.id];
+                                                                                                      return updated;
+                                                                                                    });
+                                                                                                    setNewExpenseAmount(prev => {
+                                                                                                      const updated = { ...prev };
+                                                                                                      delete updated[budget.id];
+                                                                                                      return updated;
+                                                                                                    });
+                                                                                                    if (typeof window !== 'undefined') {
+                                                                                                      window.dispatchEvent(new CustomEvent('expenseUpdated'));
                                                                                                     }
-                                                                                                  } catch (error: any) {
-                                                                                                    console.error('Error saving DCA entry:', error);
-                                                                                                    alert(`Error saving DCA entry: ${error.message || 'Please try again'}`);
+                                                                                                  } else {
+                                                                                                    const errorData = await res.json().catch(() => ({}));
+                                                                                                    alert(`Error saving DCA entry: ${errorData.error || errorData.message || 'Unknown error'}`);
                                                                                                   }
-                                                                                                }}
-                                                                                                className="text-xs px-1 py-1 bg-green-600 text-white rounded hover:bg-green-700"
-                                                                                              >
-                                                                                                Save
-                                                                                              </button>
-                                                                                              <button
-                                                                                                type="button"
-                                                                                                onClick={(e) => {
-                                                                                                  e.stopPropagation();
-                                                                                                  e.preventDefault();
-                                                                                                  cancelEditingExpense(budget.id);
-                                                                                                }}
-                                                                                                className="text-xs px-1 py-1 bg-gray-400 text-white rounded hover:bg-gray-500"
-                                                                                              >
-                                                                                                Cancel
-                                                                                              </button>
-                                                                                            </div>
-                                                                                          ) : (
-                                                                                            <div className="flex gap-1 justify-center">
-                                                                                              <button
-                                                                                                type="button"
-                                                                                                onClick={(e) => {
-                                                                                                  e.stopPropagation();
-                                                                                                  e.preventDefault();
-                                                                                                  startEditingExpense(exp.id, budget.id);
-                                                                                                  const expenseToDcaMap: { [key: string]: string } = {
-                                                                                                    'RECOGNITION CEREMONY': 'Recognition Ceremony',
-                                                                                                    'STUDENT INTEGRATION': 'Student Integration Activities',
-                                                                                                    'CLIENT TRANSPORTATION': 'Client Transportation',
-                                                                                                    'CLIENT LAPTOP': 'Client Laptop',
-                                                                                                  };
-                                                                                                  const dcaCategory = expenseToDcaMap[exp.category] || exp.category;
-                                                                                                  setNewExpenseCategory(prev => ({ ...prev, [budget.id]: dcaCategory }));
-                                                                                                }}
-                                                                                                className="text-xs text-blue-600 hover:text-blue-900"
-                                                                                              >
-                                                                                                Edit
-                                                                                              </button>
-                                                                                              <button
-                                                                                                type="button"
-                                                                                                onClick={(e) => {
-                                                                                                  e.stopPropagation();
-                                                                                                  e.preventDefault();
-                                                                                                  handleExpenseDelete(exp.id, budget.id, exp.category);
-                                                                                                }}
-                                                                                                className="text-xs text-red-600 hover:text-red-900"
-                                                                                              >
-                                                                                                Del
-                                                                                              </button>
-                                                                                            </div>
-                                                                                          )}
+                                                                                                } catch (error: any) {
+                                                                                                  console.error('Error saving DCA entry:', error);
+                                                                                                  alert(`Error saving DCA entry: ${error.message || 'Please try again'}`);
+                                                                                                }
+                                                                                              }}
+                                                                                              className="text-xs px-1 py-1 bg-green-600 text-white rounded hover:bg-green-700"
+                                                                                            >
+                                                                                              Save
+                                                                                            </button>
+                                                                                            <button
+                                                                                              type="button"
+                                                                                              onClick={(e) => {
+                                                                                                e.stopPropagation();
+                                                                                                e.preventDefault();
+                                                                                                cancelEditingExpense(budget.id);
+                                                                                              }}
+                                                                                              className="text-xs px-1 py-1 bg-gray-400 text-white rounded hover:bg-gray-500"
+                                                                                            >
+                                                                                              Cancel
+                                                                                            </button>
+                                                                                          </div>
                                                                                         </td>
                                                                                       )}
                                                                                     </tr>
@@ -2975,6 +3039,105 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
         {activeTab === 'export' && <ExportToExcel />}
 
         {activeTab === 'print' && <BudgetPrint />}
+
+        {/* Expense Edit/Delete Modal */}
+        {expenseModal.isOpen && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50" onClick={() => setExpenseModal({ isOpen: false, expenseId: null, budgetId: null, action: null, expense: null })}>
+            <div className="bg-white rounded-lg shadow-xl max-w-md w-full mx-4" onClick={(e) => e.stopPropagation()}>
+              {expenseModal.action === 'edit' ? (
+                <div className="p-6">
+                  <h2 className="text-xl font-bold text-gray-900 mb-4">Edit Budget Allocation</h2>
+                  <div className="space-y-4">
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">Category</label>
+                      <input
+                        type="text"
+                        list={`category-list-edit-${expenseModal.expenseId}`}
+                        value={newExpenseCategory[expenseModal.budgetId || ''] || expenseModal.expense?.category || ''}
+                        onChange={(e) => {
+                          setNewExpenseCategory(prev => ({ ...prev, [expenseModal.budgetId || '']: e.target.value }));
+                        }}
+                        className="w-full text-sm border border-gray-300 rounded px-3 py-2"
+                        placeholder="Type to search category..."
+                      />
+                      <datalist id={`category-list-edit-${expenseModal.expenseId}`}>
+                        {getAllExpenseCategories().map((cat: string) => (
+                          <option key={cat} value={cat} />
+                        ))}
+                      </datalist>
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">Budget Amount</label>
+                      <input
+                        type="number"
+                        step="0.01"
+                        value={newExpenseAmount[expenseModal.budgetId || ''] ?? expenseModal.expense?.amount ?? 0}
+                        onChange={(e) => {
+                          setNewExpenseAmount(prev => ({ ...prev, [expenseModal.budgetId || '']: parseFloat(e.target.value) || 0 }));
+                        }}
+                        className="w-full text-sm border border-gray-300 rounded px-3 py-2"
+                        placeholder="0.00"
+                      />
+                    </div>
+                    <div className="flex gap-3 justify-end pt-4">
+                      <button
+                        type="button"
+                        onClick={() => setExpenseModal({ isOpen: false, expenseId: null, budgetId: null, action: null, expense: null })}
+                        className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-200 rounded hover:bg-gray-300"
+                      >
+                        Cancel
+                      </button>
+                      <button
+                        type="button"
+                        onClick={async () => {
+                          if (expenseModal.expenseId && expenseModal.budgetId) {
+                            setNewExpenseCategory(prev => ({ ...prev, [expenseModal.budgetId!]: newExpenseCategory[expenseModal.budgetId!] || expenseModal.expense?.category || '' }));
+                            setNewExpenseAmount(prev => ({ ...prev, [expenseModal.budgetId!]: newExpenseAmount[expenseModal.budgetId!] ?? expenseModal.expense?.amount ?? 0 }));
+                            await handleExpenseSave(expenseModal.budgetId, expenseModal.expenseId);
+                            setExpenseModal({ isOpen: false, expenseId: null, budgetId: null, action: null, expense: null });
+                          }
+                        }}
+                        className="px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded hover:bg-blue-700"
+                      >
+                        Save
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <div className="p-6">
+                  <h2 className="text-xl font-bold text-gray-900 mb-4">Delete Budget Allocation</h2>
+                  <p className="text-sm text-gray-600 mb-6">
+                    Are you sure you want to delete the budget allocation &quot;{expenseModal.expense?.category}&quot;?
+                    <br />
+                    <span className="font-medium">Amount: ${formatCurrency(expenseModal.expense?.amount || 0).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
+                  </p>
+                  <div className="flex gap-3 justify-end">
+                    <button
+                      type="button"
+                      onClick={() => setExpenseModal({ isOpen: false, expenseId: null, budgetId: null, action: null, expense: null })}
+                      className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-200 rounded hover:bg-gray-300"
+                    >
+                      Cancel
+                    </button>
+                    <button
+                      type="button"
+                      onClick={async () => {
+                        if (expenseModal.expenseId && expenseModal.budgetId) {
+                          await handleExpenseDelete(expenseModal.expenseId, expenseModal.budgetId, expenseModal.expense?.category);
+                          setExpenseModal({ isOpen: false, expenseId: null, budgetId: null, action: null, expense: null });
+                        }
+                      }}
+                      className="px-4 py-2 text-sm font-medium text-white bg-red-600 rounded hover:bg-red-700"
+                    >
+                      Delete
+                    </button>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
