@@ -1089,13 +1089,19 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                   Location
                                 </th>
                                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
-                                  Total Amount
+                                  Total Budget Amount
                                 </th>
                                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
                                   Budget Allocated
                                 </th>
                                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
-                                  Remaining
+                                  Budget Remaining
+                                </th>
+                                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                                  YTD Expense
+                                </th>
+                                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                                  Budget Balance
                                 </th>
                                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
                                   Status
@@ -1126,6 +1132,66 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                 const remaining = (budget.total_budget || 0) - budgetAllocated;
                                 const isOverspent = remaining < 0;
                                 const isEven = index % 2 === 0;
+
+                                // Calculate YTD expenses for this budget
+                                const calculateYTDExpenses = () => {
+                                  if (!budget.fiscal_year_start || !budget.fiscal_year_end) return 0;
+                                  // Get fiscal year months
+                                  const months: Array<{ value: string; label: string }> = [];
+                                  const start = new Date(budget.fiscal_year_start);
+                                  const end = new Date(budget.fiscal_year_end);
+                                  let current = new Date(start);
+                                  current.setDate(1);
+                                  while (current <= end) {
+                                    const monthValue = `${current.getFullYear()}-${String(current.getMonth() + 1).padStart(2, '0')}`;
+                                    months.push({ value: monthValue, label: '' });
+                                    current.setMonth(current.getMonth() + 1);
+                                  }
+                                  
+                                  // Get current month
+                                  const now = new Date();
+                                  const currentMonthValue = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`;
+                                  const currentMonthIndex = months.findIndex(m => m.value === currentMonthValue);
+                                  const monthsToSum = currentMonthIndex >= 0 ? months.slice(0, currentMonthIndex + 1) : months;
+                                  
+                                  // Sum employee allocations YTD
+                                  const employeeYTD = budgetAllocations.reduce((sum, alloc) => {
+                                    const allocMonthly = monthlyAllocations[alloc.id] || alloc.monthly_allocations || {};
+                                    return sum + monthsToSum.reduce((monthSum, month) => monthSum + (allocMonthly[month.value] || 0), 0);
+                                  }, 0);
+                                  
+                                  // Sum fringe benefits YTD
+                                  const fringeYTD = monthsToSum.reduce((sum, month) => {
+                                    const monthlyValue = monthlyFringeAllocations[budget.id]?.[month.value];
+                                    if (monthlyValue !== undefined && monthlyValue !== null) {
+                                      return sum + monthlyValue;
+                                    }
+                                    // If no custom value, calculate proportional amount
+                                    const proportionalAmount = fringeBenefits / Math.max(months.length, 1);
+                                    return sum + proportionalAmount;
+                                  }, 0);
+                                  
+                                  // Sum expenses YTD (Other + DCA)
+                                  const expenseYTD = budgetExpenses.reduce((sum, exp) => {
+                                    const expMonthly = monthlyExpenseAllocations[exp.id] || exp.monthly_allocations || {};
+                                    return sum + monthsToSum.reduce((monthSum, month) => monthSum + (expMonthly[month.value] || 0), 0);
+                                  }, 0);
+                                  
+                                  // Sum indirect costs YTD
+                                  const indirectYTD = monthsToSum.reduce((sum, month) => {
+                                    const monthlyValue = monthlyIndirectCostAllocations[budget.id]?.[month.value];
+                                    if (monthlyValue !== undefined && monthlyValue !== null) {
+                                      return sum + monthlyValue;
+                                    }
+                                    // If no custom value, calculate proportional amount
+                                    const indirectCostAmount = indirectCost !== null && indirectCost !== undefined ? indirectCost : 0;
+                                    const proportionalAmount = indirectCostAmount / Math.max(months.length, 1);
+                                    return sum + proportionalAmount;
+                                  }, 0);
+                                  
+                                  return employeeYTD + fringeYTD + expenseYTD + indirectYTD;
+                                };
+                                const ytdExpenses = calculateYTDExpenses();
 
                                 // Determine base background color - alternating even/odd darkness
                                 let baseBgColor = '';
@@ -1234,6 +1300,12 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                     <td className={`px-6 py-4 whitespace-nowrap text-sm font-medium ${isOverspent ? 'text-red-600' : 'text-green-600'}`}>
                                         ${formatCurrency(Math.abs(remaining))}
                                     </td>
+                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                      ${formatCurrency(ytdExpenses)}
+                                    </td>
+                                    <td className={`px-6 py-4 whitespace-nowrap text-sm font-medium ${((budget.total_budget || 0) - ytdExpenses) >= 0 ? 'text-green-600' : 'text-red-600'}`}>
+                                      ${formatCurrency((budget.total_budget || 0) - ytdExpenses)}
+                                    </td>
                                     <td className="px-6 py-4 whitespace-nowrap text-sm">
                                       {isOverspent ? (
                                         <span className="px-2 py-1 rounded text-xs bg-red-100 text-red-800 font-medium">
@@ -1256,7 +1328,7 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                   </tr>
                                     {expandedBudgets.has(budget.id) && (
                                     <tr>
-                                      <td colSpan={7} className="px-6 py-2 bg-white">
+                                      <td colSpan={9} className="px-6 py-2 bg-white">
                                           <div className="ml-4 space-y-2">
                                             {/* Employees Section - Table Format */}
                                             <div>
@@ -3172,7 +3244,7 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                   <p className="text-sm text-gray-600 mb-6">
                     Are you sure you want to delete the budget allocation &quot;{expenseModal.expense?.category}&quot;?
                     <br />
-                    <span className="font-medium">Amount: ${formatCurrency(expenseModal.expense?.amount || 0).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
+                    <span className="font-medium">Amount: ${formatCurrency(expenseModal.expense?.amount || 0)}</span>
                   </p>
                   <div className="flex gap-3 justify-end">
                     <button
