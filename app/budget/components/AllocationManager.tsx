@@ -511,15 +511,23 @@ export default function AllocationManager({ readOnly = false }: AllocationManage
                   value={formData.fiscal_year_start}
                   onChange={(e) => {
                     const start = e.target.value;
-                    const endDate = new Date(start);
-                    endDate.setFullYear(endDate.getFullYear() + 1);
-                    endDate.setMonth(8); // September
-                    endDate.setDate(30);
-                    setFormData({
-                      ...formData,
-                      fiscal_year_start: start,
-                      fiscal_year_end: endDate.toISOString().split('T')[0],
-                    });
+                    // Only auto-calculate end date if end date is empty or hasn't been manually set
+                    if (!formData.fiscal_year_end) {
+                      const endDate = new Date(start);
+                      endDate.setFullYear(endDate.getFullYear() + 1);
+                      endDate.setMonth(8); // September
+                      endDate.setDate(30);
+                      setFormData({
+                        ...formData,
+                        fiscal_year_start: start,
+                        fiscal_year_end: endDate.toISOString().split('T')[0],
+                      });
+                    } else {
+                      setFormData({
+                        ...formData,
+                        fiscal_year_start: start,
+                      });
+                    }
                   }}
                   className="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2"
                   required
@@ -530,8 +538,9 @@ export default function AllocationManager({ readOnly = false }: AllocationManage
                 <input
                   type="date"
                   value={formData.fiscal_year_end}
-                  readOnly
-                  className="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 bg-gray-50"
+                  onChange={(e) => setFormData({ ...formData, fiscal_year_end: e.target.value })}
+                  className="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2"
+                  required
                 />
               </div>
               <div className="col-span-2">
