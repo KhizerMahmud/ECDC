@@ -477,7 +477,20 @@ export default function AllocationManager({ readOnly = false }: AllocationManage
                 <label className="block text-sm font-medium text-gray-700">Budget</label>
                 <select
                   value={formData.budget_id}
-                  onChange={(e) => setFormData({ ...formData, budget_id: e.target.value })}
+                  onChange={(e) => {
+                    const selectedBudgetId = e.target.value;
+                    const selectedBudget = budgets.find(b => b.id === selectedBudgetId);
+                    if (selectedBudget) {
+                      setFormData({
+                        ...formData,
+                        budget_id: selectedBudgetId,
+                        fiscal_year_start: selectedBudget.fiscal_year_start || formData.fiscal_year_start,
+                        fiscal_year_end: selectedBudget.fiscal_year_end || formData.fiscal_year_end,
+                      });
+                    } else {
+                      setFormData({ ...formData, budget_id: selectedBudgetId });
+                    }
+                  }}
                   className="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2"
                   required
                 >

@@ -1263,20 +1263,17 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                               <h4 className="font-semibold text-sm text-gray-700 mb-3">Employees Allocated:</h4>
                                               {budgetEmployees.length > 0 ? (
                                                 <div className="space-y-4">
-                                                  {/* Get fiscal year months for this budget - starting from Oct (calculate once outside loop) */}
+                                                  {/* Get fiscal year months for this budget based on its fiscal_year_start and fiscal_year_end (calculate once outside loop) */}
                                                   {(() => {
                                                     const getFiscalYearMonths = () => {
                                                       if (!budget.fiscal_year_start || !budget.fiscal_year_end) return [];
                                                       const months: Array<{ value: string; label: string }> = [];
                                                       const start = new Date(budget.fiscal_year_start);
                                                       const end = new Date(budget.fiscal_year_end);
-                                                      // Ensure we start from October (month 9 in 0-indexed, so check if it's October)
+                                                      // Use the actual fiscal year start date from the budget
                                                       let current = new Date(start);
-                                                      // If the fiscal year start is not October, adjust to start from October
-                                                      if (current.getMonth() !== 9) {
-                                                        // Set to October of the fiscal year start year
-                                                        current = new Date(current.getFullYear(), 9, 1); // Month 9 = October
-                                                      }
+                                                      // Set to the first day of the start month
+                                                      current.setDate(1);
                                                       while (current <= end) {
                                                         const monthValue = `${current.getFullYear()}-${String(current.getMonth() + 1).padStart(2, '0')}`;
                                                         const monthLabel = current.toLocaleDateString('en-US', { month: 'short' });
