@@ -1088,7 +1088,7 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
                                   Location
                                 </th>
-                                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase bg-blue-100">
                                   Total Budget Amount
                                 </th>
                                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
@@ -1097,10 +1097,10 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
                                   Budget Remaining
                                 </th>
-                                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase bg-yellow-100">
                                   YTD Expense
                                 </th>
-                                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase bg-green-100">
                                   Budget Balance
                                 </th>
                                 <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
@@ -1291,7 +1291,7 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                                       {budget.location?.code || 'N/A'}
                                     </td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 bg-blue-100">
                                         ${formatCurrency(budget.total_budget || 0)}
                                     </td>
                                     <td className="px-6 py-4 whitespace-nowrap text-sm">
@@ -1300,10 +1300,10 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                     <td className={`px-6 py-4 whitespace-nowrap text-sm font-medium ${isOverspent ? 'text-red-600' : 'text-green-600'}`}>
                                         ${formatCurrency(Math.abs(remaining))}
                                     </td>
-                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 bg-yellow-100">
                                       ${formatCurrency(ytdExpenses)}
                                     </td>
-                                    <td className={`px-6 py-4 whitespace-nowrap text-sm font-medium ${((budget.total_budget || 0) - ytdExpenses) >= 0 ? 'text-green-600' : 'text-red-600'}`}>
+                                    <td className={`px-6 py-4 whitespace-nowrap text-sm font-medium bg-green-100 ${((budget.total_budget || 0) - ytdExpenses) >= 0 ? 'text-green-600' : 'text-red-600'}`}>
                                       ${formatCurrency((budget.total_budget || 0) - ytdExpenses)}
                                     </td>
                                     <td className="px-6 py-4 whitespace-nowrap text-sm">
