@@ -343,7 +343,7 @@ export default function AllocationManager({ readOnly = false }: AllocationManage
       </div>
 
       {/* Filters */}
-      <div className="bg-white rounded-lg shadow p-4">
+      <div className="bg-green-200 rounded-lg shadow p-4">
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-lg font-semibold text-gray-900">Filters</h3>
           {hasActiveFilters && (
