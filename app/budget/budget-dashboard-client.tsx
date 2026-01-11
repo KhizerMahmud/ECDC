@@ -448,6 +448,22 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
     return amount.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   };
 
+  // Format number with commas for input display
+  const formatNumberInput = (value: number | string | undefined | null): string => {
+    if (value === null || value === undefined || value === '') return '';
+    const numValue = typeof value === 'string' ? parseFloat(value.replace(/,/g, '')) : value;
+    if (isNaN(numValue)) return '';
+    return numValue.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  };
+
+  // Parse comma-formatted string to number
+  const parseNumberInput = (value: string): number => {
+    if (!value || value === '') return 0;
+    const cleaned = value.replace(/,/g, '');
+    const parsed = parseFloat(cleaned);
+    return isNaN(parsed) ? 0 : parsed;
+  };
+
   // Expense categories (from ExpenseManager)
   const DEFAULT_EXPENSE_CATEGORIES = [
     'TELEPHONE',
@@ -1327,13 +1343,12 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                             </div>
                                                                           ) : (
                                                                             <input
-                                                                              type="number"
-                                                                              step="0.01"
-                                                                              value={monthValue || ''}
+                                                                              type="text"
+                                                                              value={formatNumberInput(monthValue)}
                                                                               onChange={(e) => {
                                                                                 e.stopPropagation();
                                                                                 e.preventDefault();
-                                                                                const value = parseFloat(e.target.value) || 0;
+                                                                                const value = parseNumberInput(e.target.value);
                                                                                 handleMonthlyAllocationChange(allocationId, monthKey, value);
                                                                               }}
                                                                               onKeyDown={(e) => {
@@ -1430,21 +1445,21 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                       </div>
                                                                     ) : (
                                                                       <input
-                                                                        type="number"
-                                                                        step="0.01"
+                                                                        type="text"
                                                                         value={editingFringeBenefits[budget.id] !== undefined 
-                                                                          ? editingFringeBenefits[budget.id] 
-                                                                          : (budget.fringe_benefits_amount !== null && budget.fringe_benefits_amount !== undefined ? budget.fringe_benefits_amount : '')}
+                                                                          ? formatNumberInput(editingFringeBenefits[budget.id])
+                                                                          : formatNumberInput(budget.fringe_benefits_amount)}
                                                                         onChange={(e) => {
                                                                           e.stopPropagation();
-                                                                          if (e.target.value === '') {
+                                                                          const rawValue = e.target.value;
+                                                                          if (rawValue === '') {
                                                                             setEditingFringeBenefits(prev => {
                                                                               const updated = { ...prev };
                                                                               delete updated[budget.id];
                                                                               return updated;
                                                                             });
                                                                           } else {
-                                                                            const value = parseFloat(e.target.value) || 0;
+                                                                            const value = parseNumberInput(rawValue);
                                                                             setEditingFringeBenefits(prev => ({
                                                                               ...prev,
                                                                               [budget.id]: value,
@@ -1453,7 +1468,7 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                         }}
                                                                         onBlur={(e) => {
                                                                           e.stopPropagation();
-                                                                          const value = parseFloat(e.target.value) || 0;
+                                                                          const value = parseNumberInput(e.target.value);
                                                                           if (value !== (budget.fringe_benefits_amount || 0)) {
                                                                             handleFringeBenefitsChange(budget.id, value);
                                                                           } else {
@@ -1495,12 +1510,11 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                           </div>
                                                                         ) : (
                                                                           <input
-                                                                            type="number"
-                                                                            step="0.01"
-                                                                            value={fringeMonthly !== null && fringeMonthly !== undefined ? fringeMonthly : ''}
+                                                                            type="text"
+                                                                            value={formatNumberInput(fringeMonthly)}
                                                                             onChange={(e) => {
                                                                               e.stopPropagation();
-                                                                              const value = e.target.value === '' ? null : (parseFloat(e.target.value) || 0);
+                                                                              const value = e.target.value === '' ? null : parseNumberInput(e.target.value);
                                                                               handleMonthlyFringeAllocationChange(budget.id, month.value, value);
                                                                             }}
                                                                             onKeyDown={(e) => {
@@ -1869,12 +1883,11 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                                   <div className="text-xs">${formatCurrency(exp.amount || 0)}</div>
                                                                                 ) : (
                                                                                   <input
-                                                                                    type="number"
-                                                                                    step="0.01"
-                                                                                    value={monthlyExpenseAllocations[exp.id]?._budgetAmount !== undefined ? monthlyExpenseAllocations[exp.id]._budgetAmount : exp.amount}
+                                                                                    type="text"
+                                                                                    value={formatNumberInput(monthlyExpenseAllocations[exp.id]?._budgetAmount !== undefined ? monthlyExpenseAllocations[exp.id]._budgetAmount : exp.amount)}
                                                                                     onChange={(e) => {
                                                                                       e.stopPropagation();
-                                                                                      const value = parseFloat(e.target.value) || 0;
+                                                                                      const value = parseNumberInput(e.target.value);
                                                                                       setMonthlyExpenseAllocations(prev => ({
                                                                                         ...prev,
                                                                                         [exp.id]: {
@@ -1953,13 +1966,12 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                                       </div>
                                                                                     ) : (
                                                                                       <input
-                                                                                        type="number"
-                                                                                        step="0.01"
-                                                                                        value={monthValue || ''}
+                                                                                        type="text"
+                                                                                        value={formatNumberInput(monthValue)}
                                                                                         onChange={(e) => {
                                                                                           e.stopPropagation();
                                                                                           e.preventDefault();
-                                                                                          const value = parseFloat(e.target.value) || 0;
+                                                                                          const value = parseNumberInput(e.target.value);
                                                                                           handleMonthlyExpenseAllocationChange(exp.id, month.value, value);
                                                                                         }}
                                                                                         onKeyDown={(e) => {
@@ -2382,12 +2394,11 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                                           <div className="text-xs">${formatCurrency(exp.amount || 0)}</div>
                                                                                         ) : (
                                                                                           <input
-                                                                                            type="number"
-                                                                                            step="0.01"
-                                                                                            value={monthlyExpenseAllocations[exp.id]?._budgetAmount !== undefined ? monthlyExpenseAllocations[exp.id]._budgetAmount : exp.amount}
+                                                                                            type="text"
+                                                                                            value={formatNumberInput(monthlyExpenseAllocations[exp.id]?._budgetAmount !== undefined ? monthlyExpenseAllocations[exp.id]._budgetAmount : exp.amount)}
                                                                                             onChange={(e) => {
                                                                                               e.stopPropagation();
-                                                                                              const value = parseFloat(e.target.value) || 0;
+                                                                                              const value = parseNumberInput(e.target.value);
                                                                                               setMonthlyExpenseAllocations(prev => ({
                                                                                                 ...prev,
                                                                                                 [exp.id]: {
@@ -2481,12 +2492,11 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                                               </div>
                                                                                             ) : (
                                                                                               <input
-                                                                                                type="number"
-                                                                                                step="0.01"
-                                                                                                value={monthValue || ''}
+                                                                                                type="text"
+                                                                                                value={formatNumberInput(monthValue)}
                                                                                                 onChange={(e) => {
                                                                                                   e.stopPropagation();
-                                                                                                  const value = parseFloat(e.target.value) || 0;
+                                                                                                  const value = parseNumberInput(e.target.value);
                                                                                                   handleMonthlyExpenseAllocationChange(exp.id, month.value, value);
                                                                                                 }}
                                                                                                 onKeyDown={(e) => {
@@ -2699,22 +2709,22 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                                     </div>
                                                                                   ) : (
                                                                                     <input
-                                                                                      type="number"
-                                                                                      step="0.01"
+                                                                                      type="text"
                                                                                       value={
                                                                                         editingIndirectCost[budget.id] !== undefined 
-                                                                                          ? (editingIndirectCost[budget.id] === null ? '' : String(editingIndirectCost[budget.id]))
-                                                                                          : (budget.indirect_cost !== null && budget.indirect_cost !== undefined ? String(budget.indirect_cost) : '')
+                                                                                          ? (editingIndirectCost[budget.id] === null ? '' : formatNumberInput(editingIndirectCost[budget.id]))
+                                                                                          : formatNumberInput(budget.indirect_cost)
                                                                                       }
                                                                                       onChange={(e) => {
                                                                                         e.stopPropagation();
-                                                                                        if (e.target.value === '') {
+                                                                                        const rawValue = e.target.value;
+                                                                                        if (rawValue === '') {
                                                                                           setEditingIndirectCost(prev => ({
                                                                                             ...prev,
                                                                                             [budget.id]: null,
                                                                                           }));
                                                                                         } else {
-                                                                                          const value = parseFloat(e.target.value);
+                                                                                          const value = parseNumberInput(rawValue);
                                                                                           if (!isNaN(value)) {
                                                                                             setEditingIndirectCost(prev => ({
                                                                                               ...prev,
@@ -2726,7 +2736,7 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                                       onBlur={(e) => {
                                                                                         e.stopPropagation();
                                                                                         const inputValue = e.target.value;
-                                                                                        const value = inputValue === '' ? null : (parseFloat(inputValue) || 0);
+                                                                                        const value = inputValue === '' ? null : parseNumberInput(inputValue);
                                                                                         const currentValue = budget.indirect_cost !== null && budget.indirect_cost !== undefined ? budget.indirect_cost : null;
                                                                                         if (value !== currentValue) {
                                                                                           handleIndirectCostChange(budget.id, value);
@@ -2769,12 +2779,11 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                                         </div>
                                                                                       ) : (
                                                                                         <input
-                                                                                          type="number"
-                                                                                          step="0.01"
-                                                                                          value={indirectMonthly !== null && indirectMonthly !== undefined ? indirectMonthly : ''}
+                                                                                          type="text"
+                                                                                          value={formatNumberInput(indirectMonthly)}
                                                                                           onChange={(e) => {
                                                                                             e.stopPropagation();
-                                                                                            const value = e.target.value === '' ? null : (parseFloat(e.target.value) || 0);
+                                                                                            const value = e.target.value === '' ? null : parseNumberInput(e.target.value);
                                                                                             handleMonthlyIndirectCostAllocationChange(budget.id, month.value, value);
                                                                                           }}
                                                                                           onKeyDown={(e) => {
