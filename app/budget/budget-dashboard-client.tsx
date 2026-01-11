@@ -480,6 +480,14 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
     'Student Integration Activities',
     'Client Transportation',
     'Client Laptop',
+    'Direct Cash',
+    'Housing',
+    'Utilities',
+    'Food',
+    'Health/Medical',
+    'Training',
+    'Legal Assistance',
+    'Other Client Services',
   ];
 
   // Get custom categories from localStorage
@@ -1607,6 +1615,14 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                   'Student Integration Activities': ['STUDENT INTEGRATION'],
                                                                   'Client Transportation': ['CLIENT TRANSPORTATION'],
                                                                   'Client Laptop': ['CLIENT LAPTOP'],
+                                                                  'Direct Cash': ['DIRECT CASH'],
+                                                                  'Housing': ['HOUSING'],
+                                                                  'Utilities': ['UTILITIES'],
+                                                                  'Food': ['FOOD'],
+                                                                  'Health/Medical': ['HEALTH/MEDICAL'],
+                                                                  'Training': ['TRAINING'],
+                                                                  'Legal Assistance': ['LEGAL ASSISTANCE'],
+                                                                  'Other Client Services': ['OTHER CLIENT SERVICES'],
                                                                 };
                                                                 
                                                                 const allDcaCategoryVariations = Object.values(dcaCategoryMap).flat();
@@ -2015,6 +2031,14 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                         'Student Integration Activities': ['STUDENT INTEGRATION'],
                                                                         'Client Transportation': ['CLIENT TRANSPORTATION'],
                                                                         'Client Laptop': ['CLIENT LAPTOP'],
+                                                                        'Direct Cash': ['DIRECT CASH'],
+                                                                        'Housing': ['HOUSING'],
+                                                                        'Utilities': ['UTILITIES'],
+                                                                        'Food': ['FOOD'],
+                                                                        'Health/Medical': ['HEALTH/MEDICAL'],
+                                                                        'Training': ['TRAINING'],
+                                                                        'Legal Assistance': ['LEGAL ASSISTANCE'],
+                                                                        'Other Client Services': ['OTHER CLIENT SERVICES'],
                                                                       };
                                                                       
                                                                       const allDcaCategoryVariations = Object.values(dcaCategoryMap).flat();
@@ -2181,6 +2205,14 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                                               'Student Integration Activities': 'STUDENT INTEGRATION',
                                                                                               'Client Transportation': 'CLIENT TRANSPORTATION',
                                                                                               'Client Laptop': 'CLIENT LAPTOP',
+                                                                                              'Direct Cash': 'DIRECT CASH',
+                                                                                              'Housing': 'HOUSING',
+                                                                                              'Utilities': 'UTILITIES',
+                                                                                              'Food': 'FOOD',
+                                                                                              'Health/Medical': 'HEALTH/MEDICAL',
+                                                                                              'Training': 'TRAINING',
+                                                                                              'Legal Assistance': 'LEGAL ASSISTANCE',
+                                                                                              'Other Client Services': 'OTHER CLIENT SERVICES',
                                                                                             };
                                                                                             const dcaCategory = newExpenseCategory[`${budget.id}-dca`] || '';
                                                                                             const expenseCategory = dcaCategoryMap[dcaCategory] || '';
@@ -2306,6 +2338,14 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                                                       'STUDENT INTEGRATION': 'Student Integration Activities',
                                                                                                       'CLIENT TRANSPORTATION': 'Client Transportation',
                                                                                                       'CLIENT LAPTOP': 'Client Laptop',
+                                                                                                      'DIRECT CASH': 'Direct Cash',
+                                                                                                      'HOUSING': 'Housing',
+                                                                                                      'UTILITIES': 'Utilities',
+                                                                                                      'FOOD': 'Food',
+                                                                                                      'HEALTH/MEDICAL': 'Health/Medical',
+                                                                                                      'TRAINING': 'Training',
+                                                                                                      'LEGAL ASSISTANCE': 'Legal Assistance',
+                                                                                                      'OTHER CLIENT SERVICES': 'Other Client Services',
                                                                                                     };
                                                                                                     const dcaCat = expenseToDcaMap[exp.category] || exp.category;
                                                                                                     setNewExpenseCategory(prev => ({ ...prev, [budget.id]: dcaCat }));
@@ -2370,6 +2410,14 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                                                     'Student Integration Activities': 'STUDENT INTEGRATION',
                                                                                                     'Client Transportation': 'CLIENT TRANSPORTATION',
                                                                                                     'Client Laptop': 'CLIENT LAPTOP',
+                                                                                                    'Direct Cash': 'DIRECT CASH',
+                                                                                                    'Housing': 'HOUSING',
+                                                                                                    'Utilities': 'UTILITIES',
+                                                                                                    'Food': 'FOOD',
+                                                                                                    'Health/Medical': 'HEALTH/MEDICAL',
+                                                                                                    'Training': 'TRAINING',
+                                                                                                    'Legal Assistance': 'LEGAL ASSISTANCE',
+                                                                                                    'Other Client Services': 'OTHER CLIENT SERVICES',
                                                                                                   };
                                                                                                   const expenseCategory = dcaCategoryMap[exp.category] || exp.category;
                                                                                                   const res = await fetch('/api/expenses', {
@@ -2483,6 +2531,14 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                                                                                   'Student Integration Activities': 'STUDENT INTEGRATION',
                                                                                                   'Client Transportation': 'CLIENT TRANSPORTATION',
                                                                                                   'Client Laptop': 'CLIENT LAPTOP',
+                                                                                                  'Direct Cash': 'DIRECT CASH',
+                                                                                                  'Housing': 'HOUSING',
+                                                                                                  'Utilities': 'UTILITIES',
+                                                                                                  'Food': 'FOOD',
+                                                                                                  'Health/Medical': 'HEALTH/MEDICAL',
+                                                                                                  'Training': 'TRAINING',
+                                                                                                  'Legal Assistance': 'LEGAL ASSISTANCE',
+                                                                                                  'Other Client Services': 'OTHER CLIENT SERVICES',
                                                                                                 };
                                                                                                 const dcaCategory = newExpenseCategory[budget.id] || exp.category;
                                                                                                 const expenseCategory = dcaCategoryMap[dcaCategory] || dcaCategory;
