@@ -979,7 +979,7 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
         {activeTab === 'overview' && (
           <div className="space-y-6">
             {/* Summary Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
               <div className="bg-white rounded-lg shadow p-6">
                 <div className="text-sm font-medium text-gray-500">Total Budgets</div>
                 <div className="mt-2 text-3xl font-bold text-gray-900">{budgets.length}</div>
@@ -997,8 +997,16 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow p-6">
+                <div className="text-sm font-medium text-gray-500">TBH</div>
+                <div className="mt-2 text-3xl font-bold text-gray-900">
+                  {employees.filter((e) => e.status === 'tbh' && e.tbh_budget_id).length}
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow p-6">
                 <div className="text-sm font-medium text-gray-500">Total Employees</div>
-                <div className="mt-2 text-3xl font-bold text-gray-900">{employees.filter((e) => e.status !== 'tbh').length}</div>
+                <div className="mt-2 text-3xl font-bold text-gray-900">
+                  {employees.filter((e) => e.status === 'active').length + employees.filter((e) => e.status === 'tbh' && e.tbh_budget_id).length}
+                </div>
               </div>
             </div>
 
@@ -1060,15 +1068,73 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                             </div>
                           </div>
                           <div className="text-right">
-                            <div className="text-sm text-gray-500">Total Budget</div>
-                            <div className="text-2xl font-bold text-gray-900">
-                              ${formatCurrency(funderTotal)}
+                            {(() => {
+                              // Group budgets by location
+                              const budgetsByLocation = funderBudgets.reduce((acc: any, b: any) => {
+                                const locationCode = b.location?.code || 'N/A';
+                                if (!acc[locationCode]) {
+                                  acc[locationCode] = [];
+                                }
+                                acc[locationCode].push(b);
+                                return acc;
+                              }, {});
+                              
+                              // Calculate location totals
+                              const locationData: { [key: string]: { total: number; remaining: number } } = {};
+                              let runningTotal = 0;
+                              let runningRemaining = 0;
+                              
+                              Object.keys(budgetsByLocation).forEach((locationCode) => {
+                                const locationBudgets = budgetsByLocation[locationCode];
+                                const locationTotal = locationBudgets.reduce((sum: number, b: any) => sum + (b.total_budget || 0), 0);
+                                const locationAllocated = locationBudgets.reduce((sum: number, b: any) => {
+                                  const budgetAllocations = allocations.filter(alloc => alloc.budget_id === b.id);
+                                  const allocated = budgetAllocations.reduce((allocSum: number, alloc: any) => allocSum + (alloc.allocated_amount || 0), 0);
+                                  const fringeBenefits = editingFringeBenefits[b.id] !== undefined ? editingFringeBenefits[b.id] : (b.fringe_benefits_amount || 0);
+                                  const budgetExpenses = expenses.filter(exp => exp.budget_id === b.id);
+                                  const expensesTotal = budgetExpenses.reduce((expSum: number, exp: any) => expSum + (exp.amount || 0), 0);
+                                  const indirectCost = editingIndirectCost[b.id] !== undefined ? editingIndirectCost[b.id] : (b.indirect_cost || 0);
+                                  return sum + allocated + fringeBenefits + expensesTotal + indirectCost;
+                                }, 0);
+                                const locationRemaining = locationTotal - locationAllocated;
+                                locationData[locationCode] = { total: locationTotal, remaining: locationRemaining };
+                                runningTotal += locationTotal;
+                                runningRemaining += locationRemaining;
+                              });
+                              
+                              // Order: VA first, then MD, then others
+                              const orderedLocations: string[] = [];
+                              if (locationData['VA']) orderedLocations.push('VA');
+                              if (locationData['MD']) orderedLocations.push('MD');
+                              Object.keys(locationData).forEach(code => {
+                                if (code !== 'VA' && code !== 'MD') orderedLocations.push(code);
+                              });
+                              
+                              return (
+                                <div className="flex items-center gap-4 flex-wrap justify-end">
+                                  {orderedLocations.map((locationCode) => (
+                                    <div key={locationCode} className="text-right">
+                                      <div className="text-xs font-medium text-gray-600">{locationCode}</div>
+                                      <div className="text-sm text-gray-500">${formatCurrency(locationData[locationCode].total)}</div>
+                                      <div className="text-xs">
+                                        <span className={locationData[locationCode].remaining >= 0 ? 'text-green-600' : 'text-red-600'}>
+                                          ${formatCurrency(Math.abs(locationData[locationCode].remaining))} {locationData[locationCode].remaining >= 0 ? 'remaining' : 'overspent'}
+                                        </span>
                             </div>
-                            <div className="text-sm mt-1">
-                              <span className={funderRemaining >= 0 ? 'text-green-600' : 'text-red-600'}>
-                                ${formatCurrency(Math.abs(funderRemaining))} {funderRemaining >= 0 ? 'remaining' : 'overspent'}
+                                    </div>
+                                  ))}
+                                  <div className="text-right border-l border-gray-300 pl-4">
+                                    <div className="text-xs font-bold text-gray-700">Total Budget</div>
+                                    <div className="text-lg font-bold text-gray-900">${formatCurrency(runningTotal)}</div>
+                                    <div className="text-sm">
+                                      <span className={runningRemaining >= 0 ? 'text-green-600' : 'text-red-600'}>
+                                        ${formatCurrency(Math.abs(runningRemaining))} {runningRemaining >= 0 ? 'remaining' : 'overspent'}
                               </span>
                             </div>
+                                  </div>
+                                </div>
+                              );
+                            })()}
                           </div>
                         </div>
                       </div>
@@ -1286,7 +1352,15 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                       }}
                                   >
                                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                                        {budget.budget_number}{budget.name ? ` - ${budget.name}` : ''}
+                                        <div>
+                                          {budget.budget_number}{budget.name ? ` - ${budget.name}` : ''}
+                                          {(() => {
+                                            const tbhCount = employees.filter((e) => e.status === 'tbh' && e.tbh_budget_id === budget.id).length;
+                                            return tbhCount > 0 ? (
+                                              <div className="text-sm font-normal text-gray-600 mt-0.5">*{tbhCount} TBH Employees</div>
+                                            ) : null;
+                                          })()}
+                                      </div>
                                     </td>
                                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                                       {budget.location?.code || 'N/A'}
