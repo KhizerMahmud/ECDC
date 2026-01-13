@@ -49,6 +49,7 @@ interface Employee {
   annual_salary: number;
   hourly_rate: number;
   status: string;
+  tbh_budget_id?: string | null;
   allocations?: any[];
   utilization?: any[];
 }
@@ -941,36 +942,33 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
               )}
             </div>
           </div>
-        </div>
-      </div>
-
-        {/* Sticky Tabs */}
-        <div className="max-w-full mx-auto px-8 sm:px-12 lg:px-16 xl:px-20 bg-white">
-        <div className="border-b border-gray-200">
+          {/* Tabs Navigation */}
+          <div className="border-t border-gray-200 mt-4 pt-4">
             <nav className="-mb-px flex space-x-4 flex-wrap justify-center">
-            {[
-              { id: 'overview', label: 'Overview' },
-              { id: 'budgets', label: 'Budgets' },
-              { id: 'employees', label: 'Employees' },
-              { id: 'allocations', label: 'Allocations' },
-              { id: 'funders', label: 'Funders/Donors' },
-              { id: 'fiscal-years', label: 'Fiscal Years' },
-              { id: 'print', label: 'Print' },
-              { id: 'export', label: 'Export' },
-            ].map((tab) => (
-              <button
-                key={tab.id}
-                onClick={() => setActiveTab(tab.id as any)}
-                className={`py-4 px-3 border-b-2 font-medium text-sm whitespace-nowrap ${
-                  activeTab === tab.id
-                    ? 'border-blue-500 text-blue-600'
-                    : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
-                }`}
-              >
-                {tab.label}
-              </button>
-            ))}
-          </nav>
+              {[
+                { id: 'overview', label: 'Overview' },
+                { id: 'budgets', label: 'Budgets' },
+                { id: 'employees', label: 'Employees' },
+                { id: 'allocations', label: 'Allocations' },
+                { id: 'funders', label: 'Funders/Donors' },
+                { id: 'fiscal-years', label: 'Fiscal Years' },
+                { id: 'print', label: 'Print' },
+                { id: 'export', label: 'Export' },
+              ].map((tab) => (
+                <button
+                  key={tab.id}
+                  onClick={() => setActiveTab(tab.id as any)}
+                  className={`py-2 px-3 border-b-2 font-medium text-sm whitespace-nowrap ${
+                    activeTab === tab.id
+                      ? 'border-blue-500 text-blue-600'
+                      : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+                  }`}
+                >
+                  {tab.label}
+                </button>
+              ))}
+            </nav>
+          </div>
         </div>
       </div>
 
@@ -1355,7 +1353,11 @@ export default function BudgetDashboardClient({ readOnly = false, sharedToken }:
                                         <div>
                                           {budget.budget_number}{budget.name ? ` - ${budget.name}` : ''}
                                           {(() => {
-                                            const tbhCount = employees.filter((e) => e.status === 'tbh' && e.tbh_budget_id === budget.id).length;
+                                            const tbhCount = employees.filter((e) => {
+                                              const isTbh = e.status === 'tbh' || e.status?.toLowerCase() === 'tbh';
+                                              const hasBudgetId = e.tbh_budget_id && String(e.tbh_budget_id) === String(budget.id);
+                                              return isTbh && hasBudgetId;
+                                            }).length;
                                             return tbhCount > 0 ? (
                                               <div className="text-sm font-normal text-gray-600 mt-0.5">*{tbhCount} TBH Employees</div>
                                             ) : null;
